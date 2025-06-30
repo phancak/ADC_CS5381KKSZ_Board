@@ -7590,7 +7590,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 298.45) (xy 410.21 290.83)
+			(xy 410.21 297.18) (xy 410.21 290.83)
 		)
 		(stroke
 			(width 0)
@@ -8030,7 +8030,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 287.02) (xy 387.35 290.83)
+			(xy 387.35 285.75) (xy 387.35 290.83)
 		)
 		(stroke
 			(width 0)
@@ -8420,7 +8420,7 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 290.83) (xy 420.37 298.45)
+			(xy 420.37 290.83) (xy 420.37 297.18)
 		)
 		(stroke
 			(width 0)
@@ -8830,7 +8830,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 290.83) (xy 387.35 297.18)
+			(xy 387.35 290.83) (xy 387.35 295.91)
 		)
 		(stroke
 			(width 0)
@@ -9310,7 +9310,7 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 306.07) (xy 420.37 308.61)
+			(xy 420.37 304.8) (xy 420.37 308.61)
 		)
 		(stroke
 			(width 0)
@@ -9830,7 +9830,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 304.8) (xy 387.35 308.61)
+			(xy 387.35 303.53) (xy 387.35 308.61)
 		)
 		(stroke
 			(width 0)
@@ -10210,7 +10210,7 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 287.02) (xy 420.37 290.83)
+			(xy 420.37 285.75) (xy 420.37 290.83)
 		)
 		(stroke
 			(width 0)
@@ -11100,7 +11100,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 273.05) (xy 387.35 279.4)
+			(xy 387.35 273.05) (xy 387.35 278.13)
 		)
 		(stroke
 			(width 0)
@@ -11280,7 +11280,7 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 273.05) (xy 420.37 279.4)
+			(xy 420.37 273.05) (xy 420.37 278.13)
 		)
 		(stroke
 			(width 0)
@@ -11390,7 +11390,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 306.07) (xy 410.21 308.61)
+			(xy 410.21 304.8) (xy 410.21 308.61)
 		)
 		(stroke
 			(width 0)
@@ -11440,7 +11440,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 287.02) (xy 410.21 290.83)
+			(xy 410.21 285.75) (xy 410.21 290.83)
 		)
 		(stroke
 			(width 0)
@@ -11470,7 +11470,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 279.4) (xy 410.21 273.05)
+			(xy 410.21 278.13) (xy 410.21 273.05)
 		)
 		(stroke
 			(width 0)
@@ -12276,6 +12276,7 @@
 	)
 	(label "MIC_L_OUTPUT-"
 		(at 83.82 101.6 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12297,6 +12298,7 @@
 	)
 	(label "IN-"
 		(at 133.35 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12417,6 +12419,7 @@
 	)
 	(label "LT1128CS8_L1_IN+"
 		(at 130.81 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12526,6 +12529,7 @@
 	)
 	(label "IN-"
 		(at 134.62 125.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12679,6 +12683,7 @@
 	)
 	(label "IN-"
 		(at 316.23 59.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12722,6 +12727,7 @@
 	)
 	(label "MIC_L_OUTPUT+"
 		(at 83.82 99.06 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12732,6 +12738,7 @@
 	)
 	(label "LT1128CS8_R2_IN+"
 		(at 309.88 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12951,6 +12958,7 @@
 	)
 	(label "LT1128CS8_L2_IN+"
 		(at 130.81 135.89 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12983,6 +12991,7 @@
 	)
 	(label "IN-"
 		(at 317.5 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13147,6 +13156,7 @@
 	)
 	(label "LT1128CS8_R1_IN+"
 		(at 311.15 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13166,7 +13176,7 @@
 		)
 		(uuid "f5cc2a86-4d2b-412c-af66-19fe76bb94c7")
 	)
-	(label "EXT_POWER_12V-_PP"
+	(label "EXT_POWER_12V-"
 		(at 312.42 303.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19697,7 +19707,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 410.21 283.21 0)
+		(at 410.21 281.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19705,7 +19715,7 @@
 		(dnp no)
 		(uuid "8976333c-7a19-4d75-9bb7-62d38bee57c9")
 		(property "Reference" "C39"
-			(at 408.178 286.512 90)
+			(at 408.178 285.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19713,7 +19723,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 408.432 278.13 90)
+			(at 408.432 276.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19721,7 +19731,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 411.1752 287.02 0)
+			(at 411.1752 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19730,7 +19740,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 283.21 0)
+			(at 410.21 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19739,7 +19749,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 410.21 283.21 0)
+			(at 410.21 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20444,7 +20454,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 420.37 283.21 0)
+		(at 420.37 281.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20452,7 +20462,7 @@
 		(dnp no)
 		(uuid "9ae9cb8e-bba5-4117-86cc-97ec20d483df")
 		(property "Reference" "C40"
-			(at 421.386 280.924 0)
+			(at 421.386 279.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20461,7 +20471,7 @@
 			)
 		)
 		(property "Value" "10n_X7R"
-			(at 421.64 285.496 0)
+			(at 421.64 284.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20470,7 +20480,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 421.3352 287.02 0)
+			(at 421.3352 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20479,7 +20489,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 420.37 283.21 0)
+			(at 420.37 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20488,7 +20498,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 420.37 283.21 0)
+			(at 420.37 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21042,7 +21052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal"
 			(at 388.62 190.5 0)
 			(effects
 				(font
@@ -22392,7 +22402,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZX84Cxx")
-		(at 387.35 283.21 270)
+		(at 387.35 281.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22401,7 +22411,7 @@
 		(fields_autoplaced yes)
 		(uuid "b76a544d-6dfc-4183-9cb4-1605fea74d35")
 		(property "Reference" "D4"
-			(at 389.89 281.9399 90)
+			(at 389.89 280.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22410,7 +22420,7 @@
 			)
 		)
 		(property "Value" "BZX84C13LT1G"
-			(at 389.89 284.4799 90)
+			(at 389.89 283.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22419,7 +22429,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 387.35 283.21 0)
+			(at 387.35 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22428,7 +22438,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 387.35 283.21 0)
+			(at 387.35 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22437,7 +22447,7 @@
 			)
 		)
 		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 387.35 283.21 0)
+			(at 387.35 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22532,7 +22542,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 410.21 302.26 0)
+		(at 410.21 300.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22540,7 +22550,7 @@
 		(dnp no)
 		(uuid "b823d80f-7e78-4521-934a-84472a40d22d")
 		(property "Reference" "C41"
-			(at 408.178 305.562 90)
+			(at 408.178 304.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22548,7 +22558,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 408.432 297.18 90)
+			(at 408.432 295.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22556,7 +22566,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 411.1752 306.07 0)
+			(at 411.1752 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22565,7 +22575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 302.26 0)
+			(at 410.21 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22574,7 +22584,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 410.21 302.26 0)
+			(at 410.21 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23952,7 +23962,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZX84Cxx")
-		(at 387.35 300.99 270)
+		(at 387.35 299.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23961,7 +23971,7 @@
 		(fields_autoplaced yes)
 		(uuid "c68165e3-ffb7-4d06-884b-a090887f75df")
 		(property "Reference" "D5"
-			(at 389.89 299.7199 90)
+			(at 389.89 298.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23970,7 +23980,7 @@
 			)
 		)
 		(property "Value" "BZX84C13LT1G"
-			(at 389.89 302.2599 90)
+			(at 389.89 300.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23979,7 +23989,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 387.35 300.99 0)
+			(at 387.35 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23988,7 +23998,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 387.35 300.99 0)
+			(at 387.35 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23997,7 +24007,7 @@
 			)
 		)
 		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 387.35 300.99 0)
+			(at 387.35 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27027,7 +27037,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 420.37 302.26 0)
+		(at 420.37 300.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27035,7 +27045,7 @@
 		(dnp no)
 		(uuid "f8df4f99-63e4-42c6-8172-54d1b26f3a96")
 		(property "Reference" "C42"
-			(at 421.386 299.974 0)
+			(at 421.386 298.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27044,7 +27054,7 @@
 			)
 		)
 		(property "Value" "10n_X7R"
-			(at 421.64 304.546 0)
+			(at 421.64 303.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27053,7 +27063,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 421.3352 306.07 0)
+			(at 421.3352 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27062,7 +27072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 420.37 302.26 0)
+			(at 420.37 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27071,7 +27081,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 420.37 302.26 0)
+			(at 420.37 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
