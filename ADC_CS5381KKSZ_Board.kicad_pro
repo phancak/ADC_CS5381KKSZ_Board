@@ -637,7 +637,7 @@
       },
       {
         "netclass": "PRE_AMP",
-        "pattern": "/IN*"
+        "pattern": "/*IN*"
       },
       {
         "netclass": "PRE_AMP",
