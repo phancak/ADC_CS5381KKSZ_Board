@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "532b720a-d345-4e8b-bed0-e606731588e9")
 	(paper "A2")
+	(title_block
+		(title "ADC CS5381 Board")
+		(date "2025-07-29")
+		(rev "A")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "Audio:CS5361"
 			(exclude_from_sim no)
@@ -11814,17 +11820,6 @@
 			(justify right)
 		)
 		(uuid "c5bcd865-0db5-4011-9735-8e2c7597eac7")
-	)
-	(text "STM32MP157FAD1 TFBGA257 Pitch 0.5 2x\nSTM32WB55CGU6 2x\nSTM32WB5MMGH6TR\nSTM32MP135DAF7 TFBGA320 Pitch 0.5\nSTM32H7S7L8H6H TFBGA 225 0.8 mm pitch\n\nSTSPIN958TR\nSTM32H7S3I8T6\nLSM6DSV16XTR\nISM330BXTR\nSTM32WL55CCU6\nSTM32WL55JCI6 2x\n\nSTM32MP157DAA1 2x LFBGA448 Pitch: 0.8 mm\n\nAGVLB.25B.07.0060A Connector: I-PEX MHF® I (U.FL Compatible)\nGW.52.A153 2.4/5.8/7.1GHZ Hinged RP-SMA (M) Connector\nTI.96.A113 900-940MHZ Connector: SMA(M)\n\nCS5381K-KSZ IC 120DB 192KHZ MULTI-BIT ADC 2x\n\nR9A07G044L28GBG#BC0 2x 551-LFBGA (21x21) pitch 0.8mm\n\nNXP FS32V234CTN2VUB 1x\nNXP MIMXRT1172DVMAA 2x 289-pin MAPBGA, 14 x 14 mm, 0.8 mm pitch"
-		(exclude_from_sim no)
-		(at -53.848 32.004 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "d17d99ce-d56e-460b-a7d6-1d8d1eaec94e")
 	)
 	(text "If shutdown capability is not \nrequired, connect EN to IN."
 		(exclude_from_sim no)
