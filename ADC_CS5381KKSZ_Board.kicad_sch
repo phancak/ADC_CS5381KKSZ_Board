@@ -2637,6 +2637,571 @@
 				)
 			)
 		)
+		(symbol "Personal_Projects:ADC_Driver_ADA4940-2ACPZ-R7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ADCD"
+				(at 36.83 15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ADC_Driver_ADA4940-2ACPZ-R7"
+				(at 36.83 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Personal_Project:ADC_Driver_ADA4940-2ACPZ-R7_QFN50P400X400X80-25N-D"
+				(at 36.83 -79.68 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/ADA4940-2/datasheet"
+				(at 36.83 -179.68 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Small signal bandwidth: 260 MHz Ultralow power 1.25mA Extremely low harmonic distortion 122 dB THD at 50 kHz 96 dB THD at 1 MHz Low input voltage noise: 3.9 nV/Hz 0.35 mV maximum offset voltage Balanced outputs Settling time to 0.1%: 34 ns Rail-to-rail output: VS + 0.1 V to +VS  0.1 V Adjustable output common-mode voltage Flexible power supplies: 3 V to 7 V (LFCSP) Disable pin to reduce power consumption ADA4940-1 is available in LFCSP and SOIC packages"
+				(at 0.254 -43.942 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 36.83 -379.68 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "584-ADA4940-2ACPZ-R7"
+				(at 36.83 -479.68 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADA4940-2ACPZ-R7?qs=BpaRKvA4VqHtamCKy8fS8Q%3D%3D"
+				(at 36.83 -579.68 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 36.83 -679.68 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ADA4940-2ACPZ-R7"
+				(at 36.83 -779.68 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ADC_Driver_ADA4940-2ACPZ-R7_1_1"
+				(rectangle
+					(start 5.08 13.97)
+					(end 35.56 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "-IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -27.94 90)
+					(length 2.54)
+					(name "+VS2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -27.94 90)
+					(length 2.54)
+					(name "VOCM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -27.94 90)
+					(length 2.54)
+					(name "+OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -12.7 180)
+					(length 2.54)
+					(name "-OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -10.16 180)
+					(length 2.54)
+					(name "~{DISABLE2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -7.62 180)
+					(length 2.54)
+					(name "-VS2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -5.08 180)
+					(length 2.54)
+					(name "-VS2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -2.54 180)
+					(length 2.54)
+					(name "VOCM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 0 180)
+					(length 2.54)
+					(name "+OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 16.51 270)
+					(length 2.54)
+					(name "-OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 0)
+					(length 2.54)
+					(name "+FB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 16.51 270)
+					(length 2.54)
+					(name "~{DISABLE1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 16.51 270)
+					(length 2.54)
+					(name "-VS1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 16.51 270)
+					(length 2.54)
+					(name "-VS1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 16.51 270)
+					(length 2.54)
+					(name "-FB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 16.51 270)
+					(length 2.54)
+					(name "+IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 16.51 270)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 0)
+					(length 2.54)
+					(name "+VS1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 0)
+					(length 2.54)
+					(name "+VS1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -10.16 0)
+					(length 2.54)
+					(name "-FB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 0)
+					(length 2.54)
+					(name "+IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -27.94 90)
+					(length 2.54)
+					(name "-IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -27.94 90)
+					(length 2.54)
+					(name "+FB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -27.94 90)
+					(length 2.54)
+					(name "+VS2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Personal_Projects:Button_KMR231GLFS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -22355,6 +22920,195 @@
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Personal_Projects:ADC_Driver_ADA4940-2ACPZ-R7")
+		(at 33.02 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b93b9da6-8afd-4f56-9d69-c3bfcf0f01d4")
+		(property "Reference" "ADCD1"
+			(at 85.09 41.9414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADC_Driver_ADA4940-2ACPZ-R7"
+			(at 85.09 44.4814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Personal_Project:ADC_Driver_ADA4940-2ACPZ-R7_QFN50P400X400X80-25N-D"
+			(at 69.85 127.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/ADA4940-2/datasheet"
+			(at 69.85 227.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small signal bandwidth: 260 MHz Ultralow power 1.25mA Extremely low harmonic distortion 122 dB THD at 50 kHz 96 dB THD at 1 MHz Low input voltage noise: 3.9 nV/Hz 0.35 mV maximum offset voltage Balanced outputs Settling time to 0.1%: 34 ns Rail-to-rail output: VS + 0.1 V to +VS  0.1 V Adjustable output common-mode voltage Flexible power supplies: 3 V to 7 V (LFCSP) Disable pin to reduce power consumption ADA4940-1 is available in LFCSP and SOIC packages"
+			(at 33.274 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 69.85 427.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-ADA4940-2ACPZ-R7"
+			(at 69.85 527.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADA4940-2ACPZ-R7?qs=BpaRKvA4VqHtamCKy8fS8Q%3D%3D"
+			(at 69.85 627.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 69.85 727.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ADA4940-2ACPZ-R7"
+			(at 69.85 827.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1b7678a3-2c79-45a2-afe4-c5ae741a4a4f")
+		)
+		(pin "7"
+			(uuid "c87e798b-7edf-48bf-9095-76f219ecb2cb")
+		)
+		(pin "4"
+			(uuid "25ee328c-f5fa-4d73-ae50-af8083a6916a")
+		)
+		(pin "5"
+			(uuid "12682010-2380-46b7-8330-f828558c3002")
+		)
+		(pin "25"
+			(uuid "ea457051-95b5-483c-aecf-d7128f7348aa")
+		)
+		(pin "3"
+			(uuid "087ca291-457e-4d51-b128-9cc1966916ee")
+		)
+		(pin "18"
+			(uuid "07b02e81-a050-4a2e-91ff-8c0d59c6a468")
+		)
+		(pin "19"
+			(uuid "5a4681cc-fd6c-4d03-97bc-2ee93cb48e50")
+		)
+		(pin "23"
+			(uuid "52f0d54e-a939-48b4-b921-4596ac8e8b31")
+		)
+		(pin "24"
+			(uuid "6cf1e5ba-1fdf-471c-87af-ae2ee7002a3b")
+		)
+		(pin "21"
+			(uuid "94645c06-fe81-45e9-a819-2c5e329ac6e4")
+		)
+		(pin "22"
+			(uuid "f8044f7e-4523-4bc7-b8da-f4edecfbe799")
+		)
+		(pin "16"
+			(uuid "c31954cc-2548-4cc9-b87d-99b017c5469f")
+		)
+		(pin "17"
+			(uuid "5f6c1e4d-cf8b-4c34-9216-a998c7b17e46")
+		)
+		(pin "8"
+			(uuid "8fc50955-5a45-42c8-902b-54b0f3c9770e")
+		)
+		(pin "9"
+			(uuid "de91d482-a88d-4f23-a4d9-97a81547065e")
+		)
+		(pin "12"
+			(uuid "78c4af14-108a-4f36-b9a0-c95738c6814a")
+		)
+		(pin "11"
+			(uuid "e47779c1-3f3c-4bd2-bcfb-049473a0bf9d")
+		)
+		(pin "2"
+			(uuid "b77b263b-77e3-46ff-a54e-f884bb18c77a")
+		)
+		(pin "20"
+			(uuid "e8c7b6f2-0e48-4834-8b51-0c7555d23cea")
+		)
+		(pin "10"
+			(uuid "d023cec8-6b9e-40a4-bfbe-f2f166ac2b51")
+		)
+		(pin "15"
+			(uuid "9449e559-1838-4e06-8275-7821e6ad44ab")
+		)
+		(pin "14"
+			(uuid "6f93c1bd-1785-4040-8027-5b99dc6ddc2d")
+		)
+		(pin "1"
+			(uuid "7c2f6eaa-8aba-4ab2-8fd9-c326c87f282c")
+		)
+		(pin "13"
+			(uuid "396ddb61-a75d-452c-aa6b-30f78855634a")
+		)
+		(instances
+			(project ""
+				(path "/532b720a-d345-4e8b-bed0-e606731588e9"
+					(reference "ADCD1")
 					(unit 1)
 				)
 			)
