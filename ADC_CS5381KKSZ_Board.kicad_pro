@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -551,7 +551,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -568,7 +568,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 0, 0)",
         "schematic_color": "rgb(132, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.7,
@@ -585,7 +585,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 255)",
         "schematic_color": "rgb(0, 255, 255)",
         "track_width": 0.235,
         "via_diameter": 0.8,
