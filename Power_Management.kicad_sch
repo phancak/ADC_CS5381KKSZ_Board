@@ -2841,6 +2841,12 @@
 		(uuid "a3ca00db-1476-4cfa-9008-5e5b1432f038")
 	)
 	(junction
+		(at 101.6 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7ddb9eb-df77-4c32-a443-421e973a062f")
+	)
+	(junction
 		(at 212.09 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2917,6 +2923,16 @@
 			(type default)
 		)
 		(uuid "00723474-7e4b-478a-8d58-6287ce48e585")
+	)
+	(wire
+		(pts
+			(xy 101.6 166.37) (xy 119.38 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07883afc-0f31-4e9f-a944-6bdd5cab38d9")
 	)
 	(wire
 		(pts
@@ -3010,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 166.37) (xy 119.38 166.37)
+			(xy 97.79 166.37) (xy 101.6 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3290,6 +3306,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 163.83) (xy 53.34 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8227c72c-961e-43a2-b95e-0363fb7b7fb0")
+	)
+	(wire
+		(pts
 			(xy 106.68 55.88) (xy 116.84 55.88)
 		)
 		(stroke
@@ -3520,6 +3546,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 166.37) (xy 101.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ee604b-c885-4bd7-a699-d4c02c70b9b6")
+	)
+	(wire
+		(pts
 			(xy 187.96 132.08) (xy 187.96 134.62)
 		)
 		(stroke
@@ -3617,6 +3653,16 @@
 			(type default)
 		)
 		(uuid "e4fd86dd-6103-4f4e-b61a-1ee20be34361")
+	)
+	(wire
+		(pts
+			(xy 53.34 176.53) (xy 101.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68c8adf-0ba2-466f-8b94-1fdb5fa4332f")
 	)
 	(wire
 		(pts
@@ -3809,7 +3855,7 @@
 		)
 		(uuid "3a964b85-8f6b-49a6-8370-365094b000c8")
 	)
-	(label "VQ"
+	(label "VQ_NE5532D"
 		(at 119.38 166.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3864,7 +3910,7 @@
 		)
 		(uuid "c912917d-f7a5-4753-9fc2-6e18ffbfc37f")
 	)
-	(label "VQ"
+	(label "VQ_NE5532D"
 		(at 53.34 163.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3874,6 +3920,42 @@
 			(justify left bottom)
 		)
 		(uuid "efb234cb-ff88-4bce-993b-822e12b87058")
+	)
+	(hierarchical_label "VCOM_B_RIGHT"
+		(shape bidirectional)
+		(at 119.38 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3eda7c8d-f646-4c6f-a5db-43eb2c253917")
+	)
+	(hierarchical_label "VQ_NE5532D"
+		(shape bidirectional)
+		(at 119.38 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f261a14-f207-44fe-824f-23a33fa27451")
+	)
+	(hierarchical_label "VCOM_B_LEFT"
+		(shape bidirectional)
+		(at 53.34 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a77bac94-eed9-415d-bbb8-3b538145659d")
 	)
 	(symbol
 		(lib_id "power:GND")
