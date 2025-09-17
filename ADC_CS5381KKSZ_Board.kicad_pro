@@ -774,6 +774,22 @@
     [
       "532b720a-d345-4e8b-bed0-e606731588e9",
       "Root"
+    ],
+    [
+      "e34874d5-b551-4e69-8606-4abb22c39edc",
+      "ADC_Driver_ADA4940-2ACPZ-R7"
+    ],
+    [
+      "6fb95d43-0e18-4ad3-a6e5-b241b27d2adb",
+      "ADC_CS5381K-KSZ"
+    ],
+    [
+      "3af8d819-fd9a-4d2b-a58d-97603810a2bc",
+      "Power_Management"
+    ],
+    [
+      "3ec9f341-2420-4d66-8bf6-d208992f297e",
+      "Interfaces"
     ]
   ],
   "text_variables": {}
