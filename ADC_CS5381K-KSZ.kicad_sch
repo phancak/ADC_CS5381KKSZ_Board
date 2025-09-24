@@ -2134,6 +2134,12 @@
 		(uuid "8065ebbd-3a18-4df9-a7b8-6353c63c2d71")
 	)
 	(junction
+		(at 228.6 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85a5caf0-fe0f-4639-8a91-f71b743678cf")
+	)
+	(junction
 		(at 189.23 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2473,6 +2479,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 148.59) (xy 228.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406a8094-583a-4195-a533-e0d1ff9e338e")
+	)
+	(wire
+		(pts
 			(xy 62.23 179.07) (xy 49.53 179.07)
 		)
 		(stroke
@@ -2743,6 +2759,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 148.59) (xy 228.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f56032-2cc4-4bf1-9869-3ebae0e443e1")
+	)
+	(wire
+		(pts
 			(xy 91.44 88.9) (xy 99.06 88.9)
 		)
 		(stroke
@@ -2780,6 +2806,16 @@
 			(type default)
 		)
 		(uuid "7cb498c4-eb40-4ce1-95ef-f09ca09e870f")
+	)
+	(wire
+		(pts
+			(xy 228.6 148.59) (xy 246.38 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e26a1a3-720a-4409-bd4c-b23f1177e6a2")
 	)
 	(wire
 		(pts
@@ -2860,6 +2896,16 @@
 			(type default)
 		)
 		(uuid "8862a043-cc36-4a59-bc32-6a10748699e5")
+	)
+	(wire
+		(pts
+			(xy 205.74 152.4) (xy 228.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ada8691-8f9c-4075-ae6f-0f3e8c180754")
 	)
 	(wire
 		(pts
@@ -3430,6 +3476,44 @@
 		)
 		(uuid "7cdae590-0894-4c33-a1e8-6bcd365a91b1")
 	)
+	(text_box "Power Good Pin Connection"
+		(exclude_from_sim no)
+		(at 174.625 139.7 0)
+		(size 83.82 25.4)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "9ee16628-f583-43f8-b6d0-516739eaaaf5")
+	)
+	(text_box "Notes:\nThe PG pins from both LDOs are connected to the RST pin.\nWhen LDO voltage out are at the right levels the PG pins go High Impedance. While the  level is lower than the desired Vout the PG pins are pulled to GND.\n\nFor CS4398 the RST pin should be pulled low at the start of the start up sequence.\nIf either LDO voltage level is not ready the RST pin will remain LOW.\n"
+		(exclude_from_sim no)
+		(at 185.42 167.64 0)
+		(size 83.82 25.4)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "a7ba06ef-cc32-4099-b8f5-64fd9fdcd2cb")
+	)
 	(text "Selects I2S or \nLJ output formats"
 		(exclude_from_sim no)
 		(at 65.532 58.166 0)
@@ -3539,6 +3623,17 @@
 		)
 		(uuid "e3db28f2-a2b6-4018-a153-99e55e5cb11d")
 	)
+	(label "PG_LD39200PU33R"
+		(at 224.79 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02067c82-30a4-4489-ada0-c79dcfe7b581")
+	)
 	(label "AINL-"
 		(at 127 73.66 0)
 		(fields_autoplaced yes)
@@ -3637,6 +3732,17 @@
 			(justify right bottom)
 		)
 		(uuid "5673d74c-7b69-41b5-a815-0d715df2cbde")
+	)
+	(label "*RST_CS4398"
+		(at 246.38 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e11e897-9ebc-49b0-8a59-ecf2574323ea")
 	)
 	(label "VDD"
 		(at 68.58 165.1 180)
@@ -3858,6 +3964,17 @@
 		)
 		(uuid "f31a4b9e-e883-4789-a2a4-1854290064ef")
 	)
+	(label "PG_LD39200DPUR"
+		(at 224.79 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "faff9d58-ffa4-445b-8e63-2c8f342f1441")
+	)
 	(label "VL"
 		(at 158.75 55.88 270)
 		(fields_autoplaced yes)
@@ -3904,6 +4021,18 @@
 			(justify left)
 		)
 		(uuid "1b51414e-c75e-4b16-b7d0-a0406dd0ebec")
+	)
+	(hierarchical_label "PG_LD39200PU33R"
+		(shape input)
+		(at 205.74 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "393e59c4-2de2-4412-97f0-d21dfa87721b")
 	)
 	(hierarchical_label "SCLK"
 		(shape bidirectional)
@@ -4012,6 +4141,18 @@
 			(justify right)
 		)
 		(uuid "907c0d99-e3dd-4ff4-ae92-6b8bfaeb7b53")
+	)
+	(hierarchical_label "PG_LD39200DPUR"
+		(shape input)
+		(at 205.74 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5853782-8e10-47ed-b530-c237fd6264e1")
 	)
 	(hierarchical_label "~{RST}_CS5381"
 		(shape bidirectional)
