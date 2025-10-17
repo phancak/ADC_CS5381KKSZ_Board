@@ -775,6 +775,10 @@
 		(color 0 0 0 0)
 		(uuid "e8e15c34-8a2e-47f1-860c-a9ece66a7108")
 	)
+	(no_connect
+		(at 194.31 62.23)
+		(uuid "0b2c9f87-d152-4da7-b604-5ebf490233e9")
+	)
 	(wire
 		(pts
 			(xy 173.99 107.95) (xy 101.6 107.95)
@@ -887,7 +891,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 82.55) (xy 194.31 82.55)
+			(xy 166.37 85.09) (xy 194.31 85.09)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +921,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 67.31) (xy 194.31 67.31)
+			(xy 166.37 69.85) (xy 194.31 69.85)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 80.01) (xy 194.31 80.01)
+			(xy 166.37 82.55) (xy 194.31 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1017,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 72.39) (xy 194.31 72.39)
+			(xy 166.37 74.93) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1047,7 +1051,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 77.47) (xy 194.31 77.47)
+			(xy 166.37 80.01) (xy 194.31 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1101,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 69.85) (xy 194.31 69.85)
+			(xy 166.37 72.39) (xy 194.31 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1111,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 74.93) (xy 194.31 74.93)
+			(xy 166.37 77.47) (xy 194.31 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1823,38 +1827,8 @@
 				(justify left top)
 			)
 		)
-		(pin "SCLK" bidirectional
-			(at 194.31 57.15 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3f8b54d6-65e9-44b6-b857-8a09fe1a5428")
-		)
-		(pin "LRCK" bidirectional
-			(at 194.31 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f6237599-ffe7-4ee8-8125-b9d6074e0045")
-		)
-		(pin "SDOUT" bidirectional
-			(at 194.31 54.61 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "28e8cc3f-ae6e-4cf7-97ad-0d4927f59a3b")
-		)
 		(pin "M0" bidirectional
-			(at 194.31 69.85 180)
+			(at 194.31 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1838,7 @@
 			(uuid "73db36a3-9299-4db3-806b-854a5aadd2ab")
 		)
 		(pin "MDIV" bidirectional
-			(at 194.31 82.55 180)
+			(at 194.31 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1848,7 @@
 			(uuid "09696fa2-df62-40e7-b9e1-38dc9ebaa067")
 		)
 		(pin "M1" bidirectional
-			(at 194.31 72.39 180)
+			(at 194.31 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1858,7 @@
 			(uuid "febee5bc-d919-4751-979a-a32f508b7150")
 		)
 		(pin "~{OVFL}" bidirectional
-			(at 194.31 67.31 180)
+			(at 194.31 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +1868,7 @@
 			(uuid "498c8c85-74b0-4e0d-abcc-3681236ed50e")
 		)
 		(pin "I2S{slash}~{LJ}" bidirectional
-			(at 194.31 77.47 180)
+			(at 194.31 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1878,7 @@
 			(uuid "08f2cc5f-2b34-4b5b-8f25-10dadbbb3bd8")
 		)
 		(pin "M{slash}~{S}" bidirectional
-			(at 194.31 80.01 180)
+			(at 194.31 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1888,7 @@
 			(uuid "7f3ec897-138d-4a4e-8b83-e02f208d9811")
 		)
 		(pin "~{HPF}" bidirectional
-			(at 194.31 74.93 180)
+			(at 194.31 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,6 +1906,46 @@
 				(justify left)
 			)
 			(uuid "1ac93ce7-10f0-4a7f-9540-cf586df6f096")
+		)
+		(pin "I2S1_MCK" bidirectional
+			(at 194.31 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e9120e25-e340-4382-b6f5-0716e1320e60")
+		)
+		(pin "I2S1_WS" bidirectional
+			(at 194.31 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d661f33f-0044-4a5b-b96e-6aeda0bfedcf")
+		)
+		(pin "I2S1_CK" bidirectional
+			(at 194.31 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f7ad77f-8cfb-4812-a29a-99f6098f1acc")
+		)
+		(pin "I2S1_SDI{slash}O" bidirectional
+			(at 194.31 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9187ca7-4210-43be-b61e-1b91440a1531")
 		)
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
@@ -1972,7 +1986,7 @@
 			)
 		)
 		(pin "MDIV" bidirectional
-			(at 166.37 82.55 0)
+			(at 166.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2036,7 @@
 			(uuid "6b588ac1-e475-4db7-8edc-fcaa0faa0029")
 		)
 		(pin "~{OVFL}" bidirectional
-			(at 166.37 67.31 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2076,7 @@
 			(uuid "b1c0f0fa-312c-46d2-a3c1-9b1f7ec2c4ce")
 		)
 		(pin "M0" bidirectional
-			(at 166.37 69.85 0)
+			(at 166.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2086,7 @@
 			(uuid "ecebd43f-8f32-4a7b-89df-47a0bbf900c6")
 		)
 		(pin "M1" bidirectional
-			(at 166.37 72.39 0)
+			(at 166.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2116,7 @@
 			(uuid "2d1cf986-e8a6-40e9-bbf7-abbdb0380cd9")
 		)
 		(pin "M{slash}~{S}" bidirectional
-			(at 166.37 80.01 0)
+			(at 166.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2126,7 @@
 			(uuid "c45d70a7-f789-4eff-94c2-fba8b7bd3810")
 		)
 		(pin "I2S{slash}~{LJ}" bidirectional
-			(at 166.37 77.47 0)
+			(at 166.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2136,7 @@
 			(uuid "cc840897-0071-42b8-a794-c75bdebbc596")
 		)
 		(pin "~{HPF}" bidirectional
-			(at 166.37 74.93 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

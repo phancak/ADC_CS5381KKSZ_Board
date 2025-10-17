@@ -2319,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 121.92) (xy 81.28 127)
+			(xy 74.93 121.92) (xy 74.93 127)
 		)
 		(stroke
 			(width 0)
@@ -2649,7 +2649,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 127) (xy 81.28 127)
+			(xy 72.39 127) (xy 74.93 127)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 129.54) (xy 124.46 129.54)
+			(xy 72.39 129.54) (xy 124.46 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 132.08) (xy 78.74 132.08)
+			(xy 74.93 132.08) (xy 72.39 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +3568,7 @@
 	)
 	(text "MCLK\nLOW Div by 1\nHIGH Div by 2"
 		(exclude_from_sim no)
-		(at 70.612 129.54 0)
+		(at 64.262 129.54 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3954,7 +3954,7 @@
 		(uuid "e9164fc3-9f7d-4768-842a-370a26949554")
 	)
 	(label "VD"
-		(at 81.28 124.46 90)
+		(at 74.93 124.46 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4474,7 +4474,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 132.08 90)
+		(at 74.93 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4483,7 +4483,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f888a5c-e2bb-4450-b004-eef43c397773")
 		(property "Reference" "#PWR011"
-			(at 87.63 132.08 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 132.0799 90)
+			(at 78.74 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4613,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 73.66 129.54 0)
+		(at 67.31 129.54 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4622,7 +4622,7 @@
 		(dnp no)
 		(uuid "2a6389cf-302f-494a-8005-f25011367064")
 		(property "Reference" "J11"
-			(at 73.66 124.46 0)
+			(at 67.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4630,7 @@
 			)
 		)
 		(property "Value" "MCLK_DIV_JMP"
-			(at 74.168 134.874 0)
+			(at 67.818 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +4638,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 73.66 129.54 0)
+			(at 67.31 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 129.54 0)
+			(at 67.31 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4656,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 73.66 129.54 0)
+			(at 67.31 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
