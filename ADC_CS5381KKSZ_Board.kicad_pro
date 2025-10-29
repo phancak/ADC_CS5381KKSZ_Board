@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -454,7 +454,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -499,8 +499,42 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "AIN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 255, 255)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ANALOG",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 255, 255)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(132, 132, 132)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -516,9 +550,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "PRE_AMP",
+        "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 153, 0)",
+        "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -533,9 +567,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "PWR12V",
+        "name": "I2S",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(194, 0, 194)",
+        "schematic_color": "rgb(0, 255, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -551,7 +585,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR3V3",
-        "pcb_color": "rgb(255, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -568,7 +602,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR5V",
-        "pcb_color": "rgb(132, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(132, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.7,
@@ -584,10 +618,44 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "USB",
-        "pcb_color": "rgb(0, 255, 255)",
-        "schematic_color": "rgb(0, 255, 255)",
-        "track_width": 0.235,
+        "name": "SMPS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 132, 132)",
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -596,13 +664,11 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(194, 194, 194)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
-      {
-        "netclass": "USB",
-        "pattern": "/USB*"
-      },
       {
         "netclass": "GND",
         "pattern": "GND*"
@@ -628,32 +694,52 @@
         "pattern": "/*3V3*"
       },
       {
+        "netclass": "SW",
+        "pattern": "/*SW*"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/NRST"
+      },
+      {
         "netclass": "PWR3V3",
         "pattern": "/VDD"
       },
       {
-        "netclass": "PRE_AMP",
-        "pattern": "/*AIN*"
+        "netclass": "I2C",
+        "pattern": "*I2C*"
       },
       {
-        "netclass": "PRE_AMP",
-        "pattern": "/*IN*"
+        "netclass": "PWR3V3",
+        "pattern": "*VDD*"
       },
       {
-        "netclass": "PRE_AMP",
-        "pattern": "/MIC*"
+        "netclass": "I2S",
+        "pattern": "*I2S*"
       },
       {
-        "netclass": "PRE_AMP",
-        "pattern": "/*IN+*"
+        "netclass": "ANALOG",
+        "pattern": "*MIC*"
       },
       {
-        "netclass": "PWR12V",
-        "pattern": "*12V*"
+        "netclass": "ANALOG",
+        "pattern": "*FB1*"
       },
       {
-        "netclass": "PRE_AMP",
-        "pattern": "/LT1128*"
+        "netclass": "ANALOG",
+        "pattern": "*FB2*"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "*IN*"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "*OUT1*"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "*OUT2*"
       }
     ]
   },
