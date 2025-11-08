@@ -3703,7 +3703,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "500R"
 			(at 115.57 77.978 90)
 			(effects
 				(font
@@ -6162,7 +6162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd2c0ee7-b577-4200-ae21-8eafc35e2512")
-		(property "Reference" "ADCD2"
+		(property "Reference" "ADC1"
 			(at 177.8 78.7714 0)
 			(effects
 				(font
@@ -6335,7 +6335,7 @@
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
-					(reference "ADCD2")
+					(reference "ADC1")
 					(unit 1)
 				)
 			)
@@ -6689,7 +6689,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "500R"
 			(at 115.57 99.314 90)
 			(effects
 				(font

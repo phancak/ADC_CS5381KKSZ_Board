@@ -499,7 +499,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 132 132 1.0000)
 		)
 		(uuid "3ec9f341-2420-4d66-8bf6-d208992f297e")
 		(property "Sheetname" "Interfaces"
@@ -657,7 +657,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 132 132 1.0000)
 		)
 		(uuid "6fb95d43-0e18-4ad3-a6e5-b241b27d2adb")
 		(property "Sheetname" "ADC_CS5381K-KSZ"
@@ -697,16 +697,6 @@
 				(justify left)
 			)
 			(uuid "cc70ad49-39e4-4757-8bd6-a9c43b3325f9")
-		)
-		(pin "SDOUT" bidirectional
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2cea90c9-8f8f-48e3-8c80-f96ea4814586")
 		)
 		(pin "AINR+" bidirectional
 			(at 115.57 54.61 180)
@@ -788,26 +778,6 @@
 			)
 			(uuid "863503ff-e875-4e91-add0-802f3e178928")
 		)
-		(pin "SCLK" bidirectional
-			(at 166.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "29cb9bcd-6c77-43f1-8bab-5c26e464db1d")
-		)
-		(pin "LRCK" bidirectional
-			(at 166.37 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2d1cf986-e8a6-40e9-bbf7-abbdb0380cd9")
-		)
 		(pin "M{slash}~{S}" bidirectional
 			(at 166.37 82.55 0)
 			(effects
@@ -837,6 +807,36 @@
 				(justify right)
 			)
 			(uuid "489c9684-0087-4651-aa17-2750b714d400")
+		)
+		(pin "I2S_SDOUT" bidirectional
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "042847f4-8155-4c52-b79c-74cc6722b46e")
+		)
+		(pin "I2S_SCLK" bidirectional
+			(at 166.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "71f3f6b4-6ff9-493b-a1df-36416e737163")
+		)
+		(pin "I2S_LRCK" bidirectional
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ca75494-532e-4b4d-aa5a-42444ee9b65c")
 		)
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
