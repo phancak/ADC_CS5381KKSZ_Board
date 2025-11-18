@@ -1057,126 +1057,6 @@
 				)
 			)
 		)
-		(symbol "power:+1V0"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V0"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V0\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V0_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V0_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -1623,12 +1503,6 @@
 		(uuid "b0863841-1efc-425a-94e3-8ea0389c0839")
 	)
 	(junction
-		(at 246.38 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7864b66-baf7-4a58-9366-7f25cdd95789")
-	)
-	(junction
 		(at 121.92 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1881,16 +1755,6 @@
 			(type default)
 		)
 		(uuid "2c22c895-7788-4996-92bd-993e8aa2fa96")
-	)
-	(wire
-		(pts
-			(xy 246.38 48.26) (xy 246.38 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d6c7465-ba35-4a69-96d5-ca1f2c0d5ccd")
 	)
 	(wire
 		(pts
@@ -2284,16 +2148,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 45.72) (xy 254 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b0bae36-886e-49fb-8d19-ca09fb2d4f99")
-	)
-	(wire
-		(pts
 			(xy 134.62 146.05) (xy 134.62 147.32)
 		)
 		(stroke
@@ -2321,16 +2175,6 @@
 			(type default)
 		)
 		(uuid "8def8df5-1574-486f-8c84-ed8a6921dcf4")
-	)
-	(wire
-		(pts
-			(xy 237.49 45.72) (xy 237.49 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee57597-c827-4d43-944a-d1bffb18f690")
 	)
 	(wire
 		(pts
@@ -2381,16 +2225,6 @@
 			(type default)
 		)
 		(uuid "977ecdce-2850-489b-97cf-5665c6a5848e")
-	)
-	(wire
-		(pts
-			(xy 254 48.26) (xy 246.38 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98abc2fa-2ae3-434d-9a17-99e0f56d125f")
 	)
 	(wire
 		(pts
@@ -2841,16 +2675,6 @@
 			(type default)
 		)
 		(uuid "de88160e-9412-4262-aa8a-4434f1d918be")
-	)
-	(wire
-		(pts
-			(xy 237.49 48.26) (xy 246.38 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6f4d42-e80c-401c-a9b1-e5137f463f91")
 	)
 	(wire
 		(pts
@@ -4379,71 +4203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V0")
-		(at 246.38 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "484cef39-df4d-4325-ad1a-533413c0b81d")
-		(property "Reference" "#PWR068"
-			(at 246.38 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VS2"
-			(at 243.84 44.196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 246.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7f884ec-156e-4dce-ad06-3011ba5a980b")
-		)
-		(instances
-			(project "ADC_CS5381KKSZ_Board"
-				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 153.67 139.7 0)
 		(unit 1)
@@ -5748,16 +5507,15 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 254 45.72 0)
+		(at 88.9 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95e5485f-c1b9-4aa7-b58e-b005d9671456")
-		(property "Reference" "#PWR069"
-			(at 254 49.53 0)
+		(uuid "8bd12761-53fa-4d1d-8f81-17aae41e6cdd")
+		(property "Reference" "#PWR042"
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5524,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 254 40.64 0)
+			(at 84.836 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +5532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 45.72 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 45.72 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +5550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 254 45.72 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,12 +5559,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0c6dbfd-90d9-401b-86cc-1b4d81b638fb")
+			(uuid "a1a39bc9-19a3-4e3a-a1cb-a143035ed9ac")
 		)
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
-					(reference "#PWR069")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6409,16 +6167,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V0")
-		(at 88.9 87.63 0)
+		(lib_id "power:+5VA")
+		(at 129.54 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e788beb5-d2b3-47e0-801a-1ce8efdff7c4")
-		(property "Reference" "#PWR042"
-			(at 88.9 91.44 0)
+		(uuid "d9847383-2d77-4679-aee6-94cbad00aee5")
+		(property "Reference" "#PWR037"
+			(at 129.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,8 +6184,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VS1"
-			(at 85.598 87.63 0)
+		(property "Value" "+5VA"
+			(at 125.476 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 87.63 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 87.63 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,8 +6210,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 88.9 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,12 +6220,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da5441c-610c-46f8-9a7a-1f1f757f7149")
+			(uuid "4df5dacb-a15d-4864-aaa4-d6a0d529a5ba")
 		)
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
-					(reference "#PWR042")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6534,71 +6292,6 @@
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 129.54 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea4af08a-0959-4c62-a40f-52c59a2966dc")
-		(property "Reference" "#PWR055"
-			(at 129.54 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VS2"
-			(at 125.73 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 129.54 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d61f4c68-63e3-496f-9dd4-0c20cca0e13c")
-		)
-		(instances
-			(project "ADC_CS5381KKSZ_Board"
-				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6941,71 +6634,6 @@
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 237.49 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff64fc10-fda6-47e9-9a10-17c44d1a8111")
-		(property "Reference" "#PWR067"
-			(at 237.49 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VS1"
-			(at 234.95 44.196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75a8e633-0412-4587-bd22-be3edbae0093")
-		)
-		(instances
-			(project "ADC_CS5381KKSZ_Board"
-				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)

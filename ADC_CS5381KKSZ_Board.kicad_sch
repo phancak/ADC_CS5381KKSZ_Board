@@ -105,16 +105,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 85.09) (xy 194.31 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b96d1af-bdf9-47da-9e34-bb3b44c26e43")
-	)
-	(wire
-		(pts
 			(xy 90.17 63.5) (xy 115.57 63.5)
 		)
 		(stroke
@@ -132,16 +122,6 @@
 			(type default)
 		)
 		(uuid "3837c096-ff61-4a3b-a7d7-9dfbb07d2867")
-	)
-	(wire
-		(pts
-			(xy 166.37 82.55) (xy 194.31 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5625fbae-615c-44f2-80ff-b151f288a6e4")
 	)
 	(wire
 		(pts
@@ -192,16 +172,6 @@
 			(type default)
 		)
 		(uuid "7dc7722b-c3ce-4a03-91f7-21b2900ac3b4")
-	)
-	(wire
-		(pts
-			(xy 166.37 80.01) (xy 194.31 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb67eec-e2a8-415d-9e7c-6f8aed4db4fd")
 	)
 	(wire
 		(pts
@@ -530,16 +500,6 @@
 			)
 			(uuid "73db36a3-9299-4db3-806b-854a5aadd2ab")
 		)
-		(pin "MDIV" bidirectional
-			(at 194.31 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "09696fa2-df62-40e7-b9e1-38dc9ebaa067")
-		)
 		(pin "M1" bidirectional
 			(at 194.31 74.93 180)
 			(effects
@@ -559,26 +519,6 @@
 				(justify left)
 			)
 			(uuid "498c8c85-74b0-4e0d-abcc-3681236ed50e")
-		)
-		(pin "I2S{slash}~{LJ}" bidirectional
-			(at 194.31 80.01 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "08f2cc5f-2b34-4b5b-8f25-10dadbbb3bd8")
-		)
-		(pin "M{slash}~{S}" bidirectional
-			(at 194.31 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7f3ec897-138d-4a4e-8b83-e02f208d9811")
 		)
 		(pin "~{HPF}" bidirectional
 			(at 194.31 77.47 180)
@@ -678,16 +618,6 @@
 				(justify left top)
 			)
 		)
-		(pin "MDIV" bidirectional
-			(at 166.37 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "55151f96-1430-494b-b2e2-af0825957dd6")
-		)
 		(pin "VQ_NE5532D" bidirectional
 			(at 115.57 85.09 180)
 			(effects
@@ -777,26 +707,6 @@
 				(justify right)
 			)
 			(uuid "863503ff-e875-4e91-add0-802f3e178928")
-		)
-		(pin "M{slash}~{S}" bidirectional
-			(at 166.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c45d70a7-f789-4eff-94c2-fba8b7bd3810")
-		)
-		(pin "I2S{slash}~{LJ}" bidirectional
-			(at 166.37 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cc840897-0071-42b8-a794-c75bdebbc596")
 		)
 		(pin "~{HPF}" bidirectional
 			(at 166.37 77.47 0)
