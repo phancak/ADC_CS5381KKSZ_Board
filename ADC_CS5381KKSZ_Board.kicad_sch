@@ -469,7 +469,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 132 132 1.0000)
+			(color 0 255 255 1.0000)
 		)
 		(uuid "3ec9f341-2420-4d66-8bf6-d208992f297e")
 		(property "Sheetname" "Interfaces"
@@ -597,7 +597,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 132 132 1.0000)
+			(color 0 255 255 1.0000)
 		)
 		(uuid "6fb95d43-0e18-4ad3-a6e5-b241b27d2adb")
 		(property "Sheetname" "ADC_CS5381K-KSZ"
