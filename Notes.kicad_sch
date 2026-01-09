@@ -1,0 +1,57 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "86032f88-765c-4d65-96b6-884b032f0f34")
+	(paper "USLetter")
+	(lib_symbols)
+	(text_box "Notes:\n- Physical power inputs: 3V3, 5V\n- Power Consumption\n  CS5381K-KSZ\n  - IA = 50mA, ID = 50mA, ID = 30mA (MAX), ITOTAL = 130mA\n  ADC_Driver_ADA4940-2ACPZ-R7\n  - I = 2.5mA\n  Microphones\n  - I = 1mA\n  -----------\n  Device Total 150mA\n\n- All power inputs include polarity protection\n- Will be using 12.288 MHz to cover all possible conversion rates of CS5381\n- VA Analog MIN is 4.25V to 5.25V (Should be 5V)\n- VD Digital MIN is 3.1V to 5.25V\n- VL Logic MIN is 237V to 5.25V\n- VD pin powers the chip's digital core logic - the internal digital processing circuitry that handles things like:\n  (Delta-sigma modulator output, Digital filters (decimation, etc.), Sample rate control logic, Configuration control logic (I²C/SPI core))\n- VL (Logic 1 = VL) controls MCLK, SCLK, LRCK\n- Power from USB: pins D+/D- left optionally floating or shorted\n\nFullscale Input Level = (Ain+)-(Ain-) = 5.64 Vpp\nAin+ is between 3.91 and 1.09 V (Each leg swinging 2.82V)\nAin- is between 3.91 and 1.09 V\nBoth oscillate around 2.5V (Common mode level)\nThe DC bias (Common mode level) is sett using VQ or VCOM (one pin)\nVQ or VCOM nominal voltage is 2.5V\nFilt+ Nominal Voltage 5V (Positive voltage reference output)\n\n- To reach 2.82 Vpp differential at the ADC:\nRequired gain\nG≈2.82/2.26≈1.25 per leg (use two identical amps).\nDifferential Vpp scales by the same per-leg gain if both paths are equal.\nIf your target were 2.82 Vpp per input (single-ended):\nG≈2.82/1.13≈2.5 per leg.\n\nImpedance Matching between Microphone and ADA4940\n- Output Impedance to ICS-40730 is 430 Ohms\n- Input Differential Impedance to ADA4940-2 is Rin = 2 x 200 Ohms = 400 Ohms"
+		(exclude_from_sim no)
+		(at 26.035 26.035 0)
+		(size 118.745 91.44)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3b78ed5e-763a-4870-84d5-144c1937dad9")
+	)
+	(text_box "Design Factors\n1. Power Supply\n   - 5V (Exact) through a connector\n   - 5V Through USB connector\n   - LDO to create 3V3 for digital domain \n2. Noise in the power supply (especially for CS5381 ADC)\n   - Ferrite beads and capacitors\n   - Maybe low noise LDO for the 3V3\n3. ON/OFF Switch\n   - On the 5V power input\n4. ADA4940 to drive the CS5381 ADC\n   - Amplify output from microphone ICS-40730 by G2.5 for CS5381 full range\n5. Longer traces from microphone ICS-40730 to ADA4940 (about 5cm)\n   - Impedance matching not needed\n   - Length match\n6. ADA4940 close to CS5381\n   - Impeddance matching not needed\n7. Power input polarity protection\n   - Using diode and mosfet\n8. RST Trigger (Low power mode when LOW)\n   - Local RST button\n   - External pin headder input\n9. ADA4940 DISABLE PINS\n  - Active LOW\n  - The DISABLE pin features an internal pull-up network that enables \n    the amplifier for normal operation\n  - DISABLE pin can be left floating (that is, no external connection \n    is required) and does not require an external pull-up resistor to \n    ensure normal on operation\n10. CS5381 ADC sampling at maximum 216kHz\n    - MCLK is 216,000×24×2=10.368 MHz\n    - Will transmit data through FPC ribbon cable"
+		(exclude_from_sim no)
+		(at 153.035 26.035 0)
+		(size 100.33 91.44)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6405646c-50d0-46c5-af79-9e1cdb333327")
+	)
+	(text "Fullscale Input Level = (Ain+)-(Ain-) = 5.64 Vpp\nAin+ is between 3.91 and 1.09 V (Each leg swinging 2.82V)\nAin- is between 3.91 and 1.09 V\nBoth oscillate around 2.5V (Common mode level)\nThe DC bias (Common mode level) is sett using VQ or VCOM (one pin)\nVQ or VCOM nominal voltage is 2.5V\nFilt+ Nominal Voltage 5V (Positive voltage reference output)"
+		(exclude_from_sim no)
+		(at 33.528 132.08 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "3ec94d3d-0c52-43f8-8efc-34478134409c")
+	)
+)
