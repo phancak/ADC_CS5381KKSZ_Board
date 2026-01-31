@@ -761,7 +761,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Manufacturing/BOM/ADC_CS5381KKSZ_Board.csv",
+    "bom_export_filename": "Manufacturing/BOM/ADC_CS5381KKSZ_Board_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

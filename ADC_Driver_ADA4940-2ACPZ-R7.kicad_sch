@@ -3858,6 +3858,18 @@
 		)
 		(uuid "793e01f2-3642-4f25-b4b6-f220e5a71fe9")
 	)
+	(text "2. Dielectric Absorption (Ceramic Capacitor Distortions)\n\nThis is where the \"special\" capacitor conversation actually matters. If you use cheap X7R or Z5U ceramic capacitors in the signal path, they change their capacitance as the voltage changes. This creates a non-linear distortion that can sound like graininess or crackling during loud bass notes.\n\nThe Fix: For any capacitor actually touching the audio signal, use Film capacitors (Polypropylene is king) or C0G/NP0 ceramics. These are stable and won't \"color\" or crackle the sound.\n\nResistors\n2. Choosing the Right Material (The \"Crackle\" Factor)\n\nNot all resistors are made the same. The material inside matters for audio:\n\nCarbon Composition (Avoid): These are the old-school brown cylinders. They are \"noisy\" and have high Voltage Coefficient of Resistance. As the audio signal voltage changes, the resistance changes slightly, which creates a grainy, crackling distortion.\n\nThick Film Surface Mount (Standard): These are okay for general electronics, but they can still be slightly noisy for sensitive audio.\n\nThin Film / Metal Film (Recommended): These are the gold standard for audio. They have very low noise and high stability. If you are using surface-mount parts, look for \"Thin Film\" resistors."
+		(exclude_from_sim no)
+		(at 183.896 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cc7ec684-1000-4eca-bbf1-b86fa20d58b7")
+	)
 	(text "It is also possible to connect the VOCM input to a \ncommon-mode level (CML) output of an ADC. However, \ncare must be taken to ensure that the output has \nsufficient drive capability. The input impedance of \nthe VOCM pin is approximately 250 kΩ."
 		(exclude_from_sim no)
 		(at 180.594 70.358 0)
@@ -6943,7 +6955,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -7479,7 +7490,7 @@
 				)
 			)
 		)
-		(property "Value" "500R"
+		(property "Value" "1K"
 			(at 153.924 124.46 90)
 			(effects
 				(font
@@ -8278,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Value" "500R"
+		(property "Value" "1K"
 			(at 132.08 101.854 90)
 			(effects
 				(font
