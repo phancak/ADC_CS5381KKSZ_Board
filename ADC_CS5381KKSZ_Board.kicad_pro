@@ -58,9 +58,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.25,
+          "gap": 0.2,
           "via_gap": 0.5,
-          "width": 0.235
+          "width": 0.15
         }
       ],
       "drc_exclusions": [],
@@ -226,6 +226,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.7,
