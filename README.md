@@ -54,7 +54,7 @@ This project features a modular audio processing board centered around the **CS5
 
 ## Schematic
 
-You can view the schematic [here](ADC_CS5381KKSZ_Board_Schematics.pdf).
+You can view the schematic [here](Schematics/ADC_CS5381KKSZ_Board_Schematics.pdf).
 
 ---
 

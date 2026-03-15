@@ -3265,7 +3265,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 124.46) (xy 152.4 124.46)
+			(xy 154.94 124.46) (xy 152.4 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3415,7 +3415,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 127) (xy 200.66 124.46)
+			(xy 180.34 127) (xy 180.34 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3625,7 +3625,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 124.46) (xy 198.12 124.46)
+			(xy 180.34 124.46) (xy 177.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3945,7 +3945,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 121.92) (xy 175.26 121.92)
+			(xy 139.7 121.92) (xy 154.94 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4042,6 +4042,16 @@
 			(type default)
 		)
 		(uuid "bdfe391f-0e0e-44b3-a7fb-7166db49952d")
+	)
+	(polyline
+		(pts
+			(xy 242.57 102.87) (xy 254 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffafce6-ebc6-42c6-ac42-50c1d97eb126")
 	)
 	(wire
 		(pts
@@ -4431,6 +4441,16 @@
 		)
 		(uuid "114aecd3-c494-43b0-8d72-d5a7944580d4")
 	)
+	(text "REQUIRES PU"
+		(exclude_from_sim no)
+		(at 207.518 155.702 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "65ed1833-3abb-4995-b83f-4c456d8ee90c")
+	)
 	(text "Protects the MAX 6V VIN"
 		(exclude_from_sim no)
 		(at 190.754 48.26 0)
@@ -4482,16 +4502,6 @@
 		)
 		(uuid "cc102977-3d6f-42de-b763-27766df6e09b")
 	)
-	(text "NO PU"
-		(exclude_from_sim no)
-		(at 172.974 125.984 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "cce3da80-3b53-4250-9cc8-8ae5de1a796f")
-	)
 	(text "VIN: 2.7 V to 6.5 V"
 		(exclude_from_sim no)
 		(at 59.436 124.46 0)
@@ -4512,9 +4522,19 @@
 		)
 		(uuid "eabc063e-84a6-4a44-b339-78cf7662fb03")
 	)
-	(text "NO PU"
+	(text "(5k5 INT PU)"
 		(exclude_from_sim no)
-		(at 143.51 105.918 0)
+		(at 162.306 128.778 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "fc127d1a-45e6-4b3e-9af6-fe0c995901c7")
+	)
+	(text "(5k5 INT PU)"
+		(exclude_from_sim no)
+		(at 145.542 105.918 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5377,7 +5397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 127 0)
+		(at 180.34 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5386,7 +5406,7 @@
 		(dnp no)
 		(uuid "2af0cee9-da89-44f7-b087-925a542aa489")
 		(property "Reference" "#PWR031"
-			(at 200.66 133.35 0)
+			(at 180.34 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 130.048 90)
+			(at 182.88 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 127 0)
+			(at 180.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 127 0)
+			(at 180.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 127 0)
+			(at 180.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +5862,7 @@
 	)
 	(symbol
 		(lib_id "Personal_Projects:VS_STM1813LWX7F")
-		(at 175.26 124.46 0)
+		(at 154.94 124.46 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5851,7 +5871,7 @@
 		(dnp no)
 		(uuid "533bb050-e2bd-40bb-b29d-0fd04084f24d")
 		(property "Reference" "VS2"
-			(at 180.086 114.808 0)
+			(at 159.766 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5879,7 @@
 			)
 		)
 		(property "Value" "VS_STM1818TWX7F"
-			(at 187.198 117.094 0)
+			(at 166.878 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +5887,7 @@
 			)
 		)
 		(property "Footprint" "Personal_Project:SOT-23-3_SOT103P237X112-3N"
-			(at 199.39 29.54 0)
+			(at 179.07 29.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +5897,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/STM1813LWX7F.pdf"
-			(at 199.39 -70.46 0)
+			(at 179.07 -70.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,7 +5907,7 @@
 			)
 		)
 		(property "Description" "STM1813LWX7F, Reset Monitor 3 V, 3.3 V, 5 V Active Low, Open Drain, reset 3-Pin SOT-23"
-			(at 175.26 114.3 0)
+			(at 154.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,7 +5916,7 @@
 			)
 		)
 		(property "Height" "1.12"
-			(at 199.39 -270.46 0)
+			(at 179.07 -270.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +5926,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-STM1813LWX7F"
-			(at 199.39 -370.46 0)
+			(at 179.07 -370.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +5936,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 199.39 -470.46 0)
+			(at 179.07 -470.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +5946,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 199.39 -570.46 0)
+			(at 179.07 -570.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5956,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STM1813LWX7F"
-			(at 199.39 -670.46 0)
+			(at 179.07 -670.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
