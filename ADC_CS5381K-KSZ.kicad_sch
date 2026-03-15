@@ -3368,10 +3368,10 @@
 		)
 		(uuid "7cdae590-0894-4c33-a1e8-6bcd365a91b1")
 	)
-	(text_box "Notes:\nThe PG pins from both LDOs are connected to the RST pin.\nWhen LDO voltage out are at the right levels the PG pins go High Impedance. While the  level is lower than the desired Vout the PG pins are pulled to GND.\n\nFor CS4398 the RST pin should be pulled low at the start of the start up sequence.\nIf either LDO voltage level is not ready the RST pin will remain LOW.\n"
+	(text_box "Power-up Notes:\nThe PG pins from both LDOs are connected to the RST pin.\nWhen LDO voltage out are at the right levels the PG pins go High Impedance. While the  level is lower than the desired Vout the PG pins are pulled to GND.\n\nFor CS4398 the RST pin should be pulled low at the start of the start up sequence.\nIf either LDO voltage level is not ready the RST pin will remain LOW.\n"
 		(exclude_from_sim no)
-		(at 185.42 167.64 0)
-		(size 83.82 25.4)
+		(at 177.165 144.145 0)
+		(size 83.82 20.955)
 		(stroke
 			(width 0)
 			(type dash)
