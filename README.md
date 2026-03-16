@@ -5,7 +5,7 @@
 * [**📂 View Project Schematics (PDF)**](./Schematics/ADC_CS5381KKSZ_Board_Schematics.pdf)
 
 ## 🚀 Overview
-This project is a custom-designed, high-precision Analog-to-Digital Conversion (ADC) board optimized for professional audio and precision instrumentation. It utilizes a fully differential signal chain to maximize dynamic range and minimize common-mode noise, making it suitable for high-EMI environments like robotic arm control or industrial monitoring.
+This project is a custom-designed, high-precision Analog-to-Digital Conversion (ADC) board optimized for professional audio and precision instrumentation. It utilizes a fully differential signal chain to maximize dynamic range and minimize common-mode noise, making it suitable for high-EMI environments.
 
 ## 🛠 Core Component Selection
 * **ADC:** **CS5381K-KSZ** (120dB Dynamic Range, 24-bit, 192kHz sampling). A flagship Delta-Sigma converter.
@@ -26,32 +26,23 @@ To leverage the 120dB SNR of the CS5381, I implemented a fully differential path
 ### 2. Precision Length Matching (Via Compensation)
 In high-speed mixed-signal design, phase coherency between channels is critical.
 * **Via Propagation Delay:** One of my analog traces required two vias (unavoidable). To prevent phase shift, I calculated the vertical travel distance through the 1.6mm PCB stackup and compensated the "via-free" traces by adding **3.2mm of serpentine meanders**.
-* **Tolerance:** Achieved sub-0.1mm effective electrical length matching across all high-priority analog traces.
+* **Tolerance:** Achieved sub-0.5mm effective electrical length matching across all high-priority analog traces.
 
 
 
 ### 3. Power Integrity & EMI Shielding
 * **Copper Pours:** Utilized large 3.3V and 5V copper polygons on the top layer to minimize **IR drop** and **loop inductance**. 
 * **Isolation:** Strategically distanced power pours from high-speed digital lines to prevent capacitive crosstalk. 
-* **Star Grounding:** Separated AGND and DGND planes, tied at a single point, to prevent digital switching noise from the I2S clock lines from contaminating the analog front-end.
+## 🏗 Grounding & Power Integrity Strategy
+Unlike traditional "Split Plane" designs, this board utilizes a **Solid Ground Plane** strategy on internal layers 2 and 3 to ensure the lowest possible impedance for return currents.
 
----
-
-## 📊 Data Pipeline & Testing
-Leveraging my background in **Data Integration Engineering**, I developed a verification suite for this hardware:
-* **Firmware:** STM32H7 based I2S DMA driver to capture 24-bit packets without CPU overhead.
-* **Analysis:** Python-based ETL pipeline to process raw binary data and generate **FFT Power Spectral Density** plots.
-* **RF Optimization:** Identified and mitigated a 1.7dB insertion loss in the Bluetooth telemetry chain by analyzing parasitic pad capacitance and retuning the low-pass filter impedance.
-
-
-
----
-
-## 📂 Repository Structure
-* `/Hardware`: KiCad 8.0 Schematics, 4-layer PCB Layout (FR4, 1.6mm), and BOM.
-* `/Firmware`: STM32H7 C-based drivers for I2S/SAI communication.
-* `/Python_Tools`: Data visualization and SNR/THD+N calculation scripts.
-
+* **Low-Inductance Return Paths:** By maintaining a continuous ground plane under the analog and digital sections, I minimized the loop area for high-speed I2S signals, preventing ground-bounce and radiated emissions.
+* **Component Partitioning:** Rather than a physical split in the copper, I used **Spatial Isolation**. Analog components (ADA4940, CS5381 input stage) are physically grouped on one side of the board, while digital I/O and the STM32 interface are on the opposite side, ensuring digital return currents do not traverse the sensitive analog "quiet zone."
+* **Layer Stackup:**
+    * Layer 1: Signal / Power Pours
+    * Layer 2: **GND (Solid Reference)**
+    * Layer 3: **GND (Solid Reference)**
+    * Layer 4: Signal / Power Pours
 ---
 
 ## 👨‍💻 About Me
