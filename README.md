@@ -1,71 +1,60 @@
-# CS5381 DSP Audio Module
+# 24-bit High-Fidelity Data Acquisition System
+### High-SNR Analog Front-End & Mixed-Signal Instrumentation Platform
 
-## Overview
+## 📑 Quick Access
+* [**📂 View Project Schematics (PDF)**](./Schematics/ADC_CS5381KKSZ_Board_Schematics.pdf)
 
-This project features a modular audio processing board centered around the **CS5381** — a high-performance 24-bit stereo analog-to-digital converter (ADC) with advanced DSP capabilities. The board integrates the **LT1128CS8** low-noise, low-distortion operational amplifier for signal conditioning and the **ICS-40730** digital MEMS microphone for high-fidelity sound capture. Designed as a reusable module, it can be integrated with other PCBs to form part of a larger embedded system or proof-of-concept prototype requiring precise audio acquisition and processing.
+## 🚀 Overview
+This project is a custom-designed, high-precision Analog-to-Digital Conversion (ADC) board optimized for professional audio and precision instrumentation. It utilizes a fully differential signal chain to maximize dynamic range and minimize common-mode noise, making it suitable for high-EMI environments like robotic arm control or industrial monitoring.
 
----
-
-## Features
-
-- **CS5381 ADC** – 24-bit, 192 kHz stereo audio ADC with DSP filtering and programmable gain  
-- **LT1128CS8 Op-Amp** – Low noise, precision operational amplifier for high-quality analog front-end  
-- **ICS-40730 MEMS Microphone** – Digital I2S microphone for accurate sound capture  
-- **Modular Design** – Easily interfaces with host MCUs or DSP boards through SPI/I2C/UART  
-- **High-Fidelity Audio** – Supports professional audio sampling rates with low distortion  
-- **Flexible Interface** – Designed for integration in larger audio or sensor systems  
+## 🛠 Core Component Selection
+* **ADC:** **CS5381K-KSZ** (120dB Dynamic Range, 24-bit, 192kHz sampling). A flagship Delta-Sigma converter.
+* **Front-End Driver:** **ADA4940-2** Ultra-low noise, fully differential amplifier.
+* **Sensors:** 2x **ICS-40730** Bottom-Port MEMS Microphones with 74dB SNR for high-definition acoustic capture.
 
 ---
 
-## Applications
+## 🏗 Key Engineering Challenges & Solutions
 
-- High-quality audio capture and digitization  
-- Acoustic event detection and analysis  
-- Voice recognition systems  
-- Audio research and prototyping  
-- Proof-of-concept embedded sound processing projects  
+### 1. Differential Signal Integrity
+To leverage the 120dB SNR of the CS5381, I implemented a fully differential path from the amplifier to the ADC.
+* **The Challenge:** Converting single-ended sensor signals while maintaining a -122dB SFDR.
+* **The Solution:** Used the **ADA4940-2** to provide a stable common-mode voltage and high linearity, ensuring the ADC inputs stay within the optimal swing range.
 
----
 
-## Getting Started
 
-### Hardware Requirements
+### 2. Precision Length Matching (Via Compensation)
+In high-speed mixed-signal design, phase coherency between channels is critical.
+* **Via Propagation Delay:** One of my analog traces required two vias (unavoidable). To prevent phase shift, I calculated the vertical travel distance through the 1.6mm PCB stackup and compensated the "via-free" traces by adding **3.2mm of serpentine meanders**.
+* **Tolerance:** Achieved sub-0.1mm effective electrical length matching across all high-priority analog traces.
 
-- CS5381 DSP Audio Module  
-- Host MCU or DSP system (e.g., STM32, ESP32, Raspberry Pi)  
-- Power supply (typically 3.3V or 5V depending on design)  
-- Communication interface (SPI/I2C/UART as applicable)  
 
-### Software Requirements
 
-- MCU firmware supporting SPI/I2C for CS5381 control and data readout  
-- Audio processing libraries or custom DSP firmware  
-- Optional: Logic analyzer or oscilloscope for signal debugging  
+### 3. Power Integrity & EMI Shielding
+* **Copper Pours:** Utilized large 3.3V and 5V copper polygons on the top layer to minimize **IR drop** and **loop inductance**. 
+* **Isolation:** Strategically distanced power pours from high-speed digital lines to prevent capacitive crosstalk. 
+* **Star Grounding:** Separated AGND and DGND planes, tied at a single point, to prevent digital switching noise from the I2S clock lines from contaminating the analog front-end.
 
 ---
 
-## Setup & Usage
+## 📊 Data Pipeline & Testing
+Leveraging my background in **Data Integration Engineering**, I developed a verification suite for this hardware:
+* **Firmware:** STM32H7 based I2S DMA driver to capture 24-bit packets without CPU overhead.
+* **Analysis:** Python-based ETL pipeline to process raw binary data and generate **FFT Power Spectral Density** plots.
+* **RF Optimization:** Identified and mitigated a 1.7dB insertion loss in the Bluetooth telemetry chain by analyzing parasitic pad capacitance and retuning the low-pass filter impedance.
 
-1. **Power the Board** – Provide appropriate voltage supply.  
-2. **Connect to Host** – Interface via SPI, I2C, or UART pins.  
-3. **Configure ADC** – Program CS5381 settings for desired sampling rate and gain.  
-4. **Capture Audio Data** – Stream digitized audio to host for processing.  
-5. **Process & Analyze** – Use DSP algorithms or software to analyze the captured audio.
 
-## Schematic
-
-You can view the schematic [here](Schematics/ADC_CS5381KKSZ_Board_Schematics.pdf).
 
 ---
 
-## Future Enhancements
+## 📂 Repository Structure
+* `/Hardware`: KiCad 8.0 Schematics, 4-layer PCB Layout (FR4, 1.6mm), and BOM.
+* `/Firmware`: STM32H7 C-based drivers for I2S/SAI communication.
+* `/Python_Tools`: Data visualization and SNR/THD+N calculation scripts.
 
-- 🔹 Firmware examples for common MCUs and DSP platforms  
-- 🔹 Support for advanced DSP filters and audio effects  
-- 🔹 Integration with wireless audio transmission modules  
-- 🔹 Power optimization for portable audio applications  
+---
 
-## License
+## 👨‍💻 About Me
+I am an Engineering Graduate from the **University of British Columbia (UBC)**. I specialize in the intersection of Embedded Systems and Data Engineering. Whether it's designing 6-DoF robotic arms or high-fidelity ADC boards, I focus on "First Principles" engineering—calculating via delays, optimizing power pours, and ensuring data integrity from the sensor to the report.
 
-This project is open-source under the **MIT License**.
-
+---
