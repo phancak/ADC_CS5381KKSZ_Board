@@ -2916,6 +2916,16 @@
 		)
 		(uuid "03dffdd9-e840-43a9-9f63-7c610f07e400")
 	)
+	(text "length-matched"
+		(exclude_from_sim no)
+		(at 242.316 74.422 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "0c6f3920-f658-4402-b78d-d2ae30bea3a3")
+	)
 	(text "Rg"
 		(exclude_from_sim no)
 		(at 110.49 71.374 0)
@@ -3020,6 +3030,26 @@
 			)
 		)
 		(uuid "8c77a7ff-7897-4557-9b7c-98e34a5342b2")
+	)
+	(text "length-matched"
+		(exclude_from_sim no)
+		(at 98.552 145.796 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "a6e6b87e-6012-4f1f-b649-7f478e39b377")
+	)
+	(text "length-matched"
+		(exclude_from_sim no)
+		(at 235.712 130.048 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "b5454f9e-1dc0-4452-9ce2-58425bf2c849")
 	)
 	(text "length-matched"
 		(exclude_from_sim no)

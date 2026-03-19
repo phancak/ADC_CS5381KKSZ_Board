@@ -2181,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 83.82) (xy 218.44 83.82)
+			(xy 163.83 83.82) (xy 191.77 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2218,6 +2218,16 @@
 			(type default)
 		)
 		(uuid "0a0af14c-6346-4a70-8947-e3304c46a77d")
+	)
+	(wire
+		(pts
+			(xy 199.39 83.82) (xy 218.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc932cf-9e85-4062-8ac9-1797f080ff94")
 	)
 	(wire
 		(pts
@@ -2431,7 +2441,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 218.44 81.28)
+			(xy 163.83 81.28) (xy 191.77 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3131,6 +3141,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 81.28) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceaf28c0-0b2f-4d58-9445-245008a38067")
+	)
+	(wire
+		(pts
 			(xy 74.93 77.47) (xy 74.93 74.93)
 		)
 		(stroke
@@ -3540,6 +3560,17 @@
 		)
 		(uuid "36868143-598f-41dd-ac39-6d2a96922826")
 	)
+	(label "I2S_LRCK"
+		(at 207.01 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40f4887e-8cbf-4aee-a16d-20d63ee63246")
+	)
 	(label "~{OVFL}"
 		(at 125.73 91.44 0)
 		(fields_autoplaced yes)
@@ -3563,13 +3594,13 @@
 		(uuid "50fe4ccc-7865-4571-aee1-efff002f36d3")
 	)
 	(label "I2S_SDOUT_R"
-		(at 179.07 86.36 180)
+		(at 171.45 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "55aacbe3-c6f4-4054-af57-34c7623c6f7c")
 	)
@@ -3628,8 +3659,8 @@
 		)
 		(uuid "6bd6ae0d-009e-4d43-aa90-ff37112fb66d")
 	)
-	(label "I2S_LRCK"
-		(at 177.8 81.28 0)
+	(label "I2S_LRCK_R"
+		(at 171.45 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3650,8 +3681,8 @@
 		)
 		(uuid "895ba6bc-6002-421a-9cfd-c41f8f3c21e5")
 	)
-	(label "I2S_SCLK"
-		(at 177.8 83.82 0)
+	(label "I2S_SCLK_R"
+		(at 171.45 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3737,6 +3768,17 @@
 			(justify left bottom)
 		)
 		(uuid "c49a441e-4500-4ab0-b240-c3668c357447")
+	)
+	(label "I2S_SCLK"
+		(at 207.01 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e45eee81-b62d-4c00-a014-579d0c20ab71")
 	)
 	(label "M0"
 		(at 121.92 101.6 0)
@@ -4804,15 +4846,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 195.58 86.36 90)
+		(at 195.58 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4f9ef9da-e38c-479d-b1e1-16aaf179bedc")
-		(property "Reference" "R3"
-			(at 192.532 85.09 90)
+		(uuid "4f4ec658-02ec-4ce7-a5a0-0c09f2d03a19")
+		(property "Reference" "R2"
+			(at 192.278 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4863,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 203.708 85.09 90)
+			(at 202.692 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,8 +4871,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 195.58 88.138 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.58 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4881,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 86.36 0)
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +4890,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 195.58 86.36 0)
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,15 +4899,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "50f3a015-da3d-410d-b602-978a1eeb59df")
+			(uuid "d97b83a3-338f-4c21-a8a6-450525499eab")
 		)
 		(pin "1"
-			(uuid "8d6045f2-2814-4839-a2fc-d3733ac1162c")
+			(uuid "9f20912f-9d0c-418e-8cb7-614d39db5629")
 		)
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/6fb95d43-0e18-4ad3-a6e5-b241b27d2adb"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5003,6 +5045,75 @@
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/6fb95d43-0e18-4ad3-a6e5-b241b27d2adb"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72105a50-dbcf-412a-93d4-2804fae5f7c8")
+		(property "Reference" "R3"
+			(at 192.278 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22R"
+			(at 202.692 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.58 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "baf5253b-33f3-450d-87fa-787570a4ab74")
+		)
+		(pin "1"
+			(uuid "f5720138-5c95-4652-bddc-e9a65e0409c7")
+		)
+		(instances
+			(project "ADC_CS5381KKSZ_Board"
+				(path "/532b720a-d345-4e8b-bed0-e606731588e9/6fb95d43-0e18-4ad3-a6e5-b241b27d2adb"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5315,7 +5426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.38 166.878 90)
 			(effects
 				(font
@@ -7045,6 +7156,75 @@
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/6fb95d43-0e18-4ad3-a6e5-b241b27d2adb"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f134b24c-a27b-4755-a52c-ec4250881f4e")
+		(property "Reference" "R8"
+			(at 192.278 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22R"
+			(at 202.692 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.58 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b24390a-22d9-4ecc-8311-d413d4b67229")
+		)
+		(pin "1"
+			(uuid "d64e460f-7979-4844-8ec3-1a9f61e4161a")
+		)
+		(instances
+			(project "ADC_CS5381KKSZ_Board"
+				(path "/532b720a-d345-4e8b-bed0-e606731588e9/6fb95d43-0e18-4ad3-a6e5-b241b27d2adb"
+					(reference "R8")
 					(unit 1)
 				)
 			)

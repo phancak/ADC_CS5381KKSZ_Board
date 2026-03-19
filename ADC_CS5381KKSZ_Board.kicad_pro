@@ -58,9 +58,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.2,
+          "gap": 0.5,
           "via_gap": 0.5,
-          "width": 0.15
+          "width": 0.1847
         }
       ],
       "drc_exclusions": [],
@@ -185,17 +185,17 @@
       "track_widths": [
         0.0,
         0.15,
-        0.155,
+        0.1521,
         0.1565,
         0.167,
         0.1765,
+        0.1847,
         0.2,
         0.235,
         0.25,
         0.3,
         0.5,
         0.6,
-        0.7,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -231,10 +231,6 @@
         },
         {
           "diameter": 0.45,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.5,
           "drill": 0.3
         },
         {
@@ -781,7 +777,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Manufacturing/Gerber/",
+      "plot": "Schematics/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
