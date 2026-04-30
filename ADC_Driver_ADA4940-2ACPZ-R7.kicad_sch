@@ -2958,9 +2958,9 @@
 		)
 		(uuid "31a376c6-c154-47fb-8fc3-fd832ad985b2")
 	)
-	(text "R analog sound: \nThin Film/Metal Film (Recommended)"
+	(text "R analog sound: \nThin Film/Metal Film (Recommended)\nRg variable"
 		(exclude_from_sim no)
-		(at 98.552 55.88 0)
+		(at 103.632 55.118 0)
 		(effects
 			(font
 				(size 1 1)
