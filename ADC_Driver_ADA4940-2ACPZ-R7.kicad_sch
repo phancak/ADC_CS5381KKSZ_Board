@@ -2916,6 +2916,16 @@
 		)
 		(uuid "03dffdd9-e840-43a9-9f63-7c610f07e400")
 	)
+	(text "length-matched"
+		(exclude_from_sim no)
+		(at 242.316 74.422 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "0c6f3920-f658-4402-b78d-d2ae30bea3a3")
+	)
 	(text "Rg"
 		(exclude_from_sim no)
 		(at 110.49 71.374 0)
@@ -2948,9 +2958,9 @@
 		)
 		(uuid "31a376c6-c154-47fb-8fc3-fd832ad985b2")
 	)
-	(text "R analog sound: \nThin Film/Metal Film (Recommended)"
+	(text "R analog sound: \nThin Film/Metal Film (Recommended)\nRg variable"
 		(exclude_from_sim no)
-		(at 98.552 55.88 0)
+		(at 103.632 55.118 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3023,6 +3033,26 @@
 	)
 	(text "length-matched"
 		(exclude_from_sim no)
+		(at 98.552 145.796 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "a6e6b87e-6012-4f1f-b649-7f478e39b377")
+	)
+	(text "length-matched"
+		(exclude_from_sim no)
+		(at 235.712 130.048 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "b5454f9e-1dc0-4452-9ce2-58425bf2c849")
+	)
+	(text "length-matched"
+		(exclude_from_sim no)
 		(at 94.996 70.866 0)
 		(effects
 			(font
@@ -3031,13 +3061,14 @@
 		)
 		(uuid "e26bdbfd-cbfc-4510-8455-55b8e1f7f492")
 	)
-	(text "Film Capacitors (PPS or PET) or C0G / NP0"
+	(text "Film Capacitors (PPS or PET) or C0G / NP0\nBipolar Aluminum Electrolytic Good\nPolyester Film (MKT)	Best"
 		(exclude_from_sim no)
-		(at 76.708 78.232 0)
+		(at 68.326 78.74 0)
 		(effects
 			(font
 				(size 1 1)
 			)
+			(justify left)
 		)
 		(uuid "e870dd82-d5b0-4978-85f4-8a5dbecb2d9c")
 	)
@@ -3173,8 +3204,8 @@
 		)
 		(uuid "66521c2a-7dc1-44cf-aa41-3637f3c6499c")
 	)
-	(label "+OUT1"
-		(at 205.74 80.01 0)
+	(label "OUT1+"
+		(at 195.58 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3184,7 +3215,7 @@
 		)
 		(uuid "6a34aeec-0666-4bca-8a93-372b40aca770")
 	)
-	(label "-OUT1"
+	(label "OUT1-"
 		(at 176.53 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3283,7 +3314,7 @@
 		)
 		(uuid "c3b2d432-706a-4947-98f5-89fac9b9868c")
 	)
-	(label "+OUT2"
+	(label "OUT2+"
 		(at 166.37 115.57 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3305,7 +3336,7 @@
 		)
 		(uuid "d453256c-39bc-4e3e-9263-8dd9296c929f")
 	)
-	(label "-OUT2"
+	(label "OUT2-"
 		(at 189.23 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3526,6 +3557,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 85.09 140.97 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e1a3a4f-f40b-4789-b61a-270ed00d2c2c")
+		(property "Reference" "C25"
+			(at 82.804 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 90.678 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 88.9 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rubycon 16MU106MC44532"
+			(at 85.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6cfb38ac-e4ea-48ee-b159-2d5d630351bd")
+		)
+		(pin "1"
+			(uuid "757f0b57-763e-4989-912f-524437a97c1a")
+		)
+		(instances
+			(project "ADC_CS5381KKSZ_Board"
+				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 109.22 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3551,7 +3652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 95.25 0)
 			(effects
 				(font
@@ -3611,8 +3712,8 @@
 				)
 			)
 		)
-		(property "Value" "1K_RN73H2ATTD1001B25"
-			(at 133.604 69.596 90)
+		(property "Value" "1k"
+			(at 130.556 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 222.25 81.5848 0)
 			(effects
 				(font
@@ -3748,7 +3849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1n"
 			(at 119.38 93.726 0)
 			(effects
 				(font
@@ -3757,7 +3858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.0752 95.25 0)
 			(effects
 				(font
@@ -3885,8 +3986,8 @@
 				)
 			)
 		)
-		(property "Value" "22R_Metal_Film"
-			(at 227.838 72.644 90)
+		(property "Value" "33R"
+			(at 222.504 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,6 +4031,76 @@
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 134.62 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2527cafe-285d-4b7a-bc2d-92af7e89f003")
+		(property "Reference" "C10"
+			(at 82.804 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 90.678 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 88.9 135.5852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rubycon 16MU106MC44532"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe80fbd5-ab39-4447-aa27-5212e7de6429")
+		)
+		(pin "1"
+			(uuid "75363f57-d403-4d7f-972a-eee3182e870a")
+		)
+		(instances
+			(project "ADC_CS5381KKSZ_Board"
+				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4167,8 +4338,8 @@
 				)
 			)
 		)
-		(property "Value" "1K_RN73H2ATTD1001B25"
-			(at 151.13 56.896 90)
+		(property "Value" "1k"
+			(at 151.384 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,76 +4525,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 134.62 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "458d0b04-95e4-4cd9-a189-52541b79c63c")
-		(property "Reference" "C10"
-			(at 82.804 136.144 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 90.678 136.144 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 88.9 135.5852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8f1b38d7-14d9-48dc-a612-eecfd4bbdac4")
-		)
-		(pin "1"
-			(uuid "6b405026-15ad-41d7-bf52-7513a81324f1")
-		)
-		(instances
-			(project "ADC_CS5381KKSZ_Board"
-				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 168.91 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4449,7 +4550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 169.8752 138.43 0)
 			(effects
 				(font
@@ -4718,7 +4819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 139.7 0)
 			(effects
 				(font
@@ -4788,7 +4889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 82.55 69.5452 0)
 			(effects
 				(font
@@ -4806,7 +4907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Rubycon 16MU106MC44532"
 			(at 78.74 68.58 0)
 			(effects
 				(font
@@ -5055,7 +5156,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "33R"
 			(at 229.108 127.254 90)
 			(effects
 				(font
@@ -5469,7 +5570,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "33R"
 			(at 229.108 112.014 90)
 			(effects
 				(font
@@ -5547,7 +5648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 82.55 63.1952 0)
 			(effects
 				(font
@@ -5565,7 +5666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Rubycon 16MU106MC44532"
 			(at 78.74 62.23 0)
 			(effects
 				(font
@@ -5740,8 +5841,8 @@
 				)
 			)
 		)
-		(property "Value" "22R_Metal_Film"
-			(at 227.838 57.404 90)
+		(property "Value" "33R"
+			(at 222.25 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1n"
 			(at 160.02 138.176 0)
 			(effects
 				(font
@@ -5817,7 +5918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.7152 139.7 0)
 			(effects
 				(font
@@ -6012,8 +6113,8 @@
 				)
 			)
 		)
-		(property "Value" "1K_RN73H2ATTD1001B25"
-			(at 150.622 119.126 90)
+		(property "Value" "1k"
+			(at 151.638 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,8 +6635,8 @@
 				)
 			)
 		)
-		(property "Value" "1K_RN73H2ATTD1001B25"
-			(at 133.35 92.456 90)
+		(property "Value" "1k"
+			(at 130.556 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,76 +6680,6 @@
 			(project "ADC_CS5381KKSZ_Board"
 				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 85.09 140.97 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f54163a4-6b84-40d8-9b19-5047f56db26f")
-		(property "Reference" "C32"
-			(at 82.804 142.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 90.678 142.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 88.9 141.9352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58a1f18d-86dc-4e34-b452-6508e895f01c")
-		)
-		(pin "1"
-			(uuid "caec5755-3633-4874-9a63-f35f3a5b2a89")
-		)
-		(instances
-			(project "ADC_CS5381KKSZ_Board"
-				(path "/532b720a-d345-4e8b-bed0-e606731588e9/e34874d5-b551-4e69-8606-4abb22c39edc"
-					(reference "C32")
 					(unit 1)
 				)
 			)

@@ -1,6 +1,12 @@
 # 24-bit High-Fidelity Data Acquisition System
 ### High-SNR Analog Front-End & Mixed-Signal Instrumentation Platform
 
+<div align="center">
+  <img src="Docs/ADC_CS5381KKSZ_Board_PCB.png" alt="ADC CS5381KKSZ Board PCB 3D Render" width="800">
+  <br>
+  <em>ADC CS5381KKSZ 4-layer PCB diagram.</em>
+</div>
+
 ## 📑 Quick Access
 * [**📂 View Project Schematics (PDF)**](./Schematics/ADC_CS5381KKSZ_Board_Schematics.pdf)
 
