@@ -1,0 +1,41 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="1kmPxZG65lzqadQUtouR">
+    <mxGraphModel dx="774" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8sFDiEIEdLpC8v4jtSxp-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" value="STAGES" vertex="1">
+          <mxGeometry height="480" width="850" x="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8sFDiEIEdLpC8v4jtSxp-2" parent="8sFDiEIEdLpC8v4jtSxp-1" style="swimlane;startSize=20;html=1;" value="POWER" vertex="1">
+          <mxGeometry height="460" width="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8sFDiEIEdLpC8v4jtSxp-15" parent="8sFDiEIEdLpC8v4jtSxp-2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" value="List" vertex="1">
+          <mxGeometry height="104" width="140" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8sFDiEIEdLpC8v4jtSxp-16" parent="8sFDiEIEdLpC8v4jtSxp-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Item 1" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8sFDiEIEdLpC8v4jtSxp-17" parent="8sFDiEIEdLpC8v4jtSxp-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Item 2" vertex="1">
+          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8sFDiEIEdLpC8v4jtSxp-18" parent="8sFDiEIEdLpC8v4jtSxp-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Item 3" vertex="1">
+          <mxGeometry height="26" width="140" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8sFDiEIEdLpC8v4jtSxp-3" parent="8sFDiEIEdLpC8v4jtSxp-1" style="swimlane;startSize=20;html=1;" value="Lane 2" vertex="1">
+          <mxGeometry height="460" width="170" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8sFDiEIEdLpC8v4jtSxp-4" parent="8sFDiEIEdLpC8v4jtSxp-1" style="swimlane;startSize=20;html=1;" value="Lane 3" vertex="1">
+          <mxGeometry height="460" width="240" x="370" y="20" as="geometry">
+            <mxRectangle height="460" width="40" x="370" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sFDiEIEdLpC8v4jtSxp-21" parent="8sFDiEIEdLpC8v4jtSxp-1" style="swimlane;startSize=20;html=1;" vertex="1">
+          <mxGeometry height="460" width="240" x="610" y="20" as="geometry">
+            <mxRectangle height="460" width="40" x="370" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

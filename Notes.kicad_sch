@@ -1,14 +1,26 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "86032f88-765c-4d65-96b6-884b032f0f34")
 	(paper "USLetter")
 	(lib_symbols)
+	(text "Fullscale Input Level = (Ain+)-(Ain-) = 5.64 Vpp\nAin+ is between 3.91 and 1.09 V (Each leg swinging 2.82V)\nAin- is between 3.91 and 1.09 V\nBoth oscillate around 2.5V (Common mode level)\nThe DC bias (Common mode level) is sett using VQ or VCOM (one pin)\nVQ or VCOM nominal voltage is 2.5V\nFilt+ Nominal Voltage 5V (Positive voltage reference output)"
+		(exclude_from_sim no)
+		(at 160.274 133.096 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "3ec94d3d-0c52-43f8-8efc-34478134409c")
+	)
 	(text_box "NOTES:\nCS5381K-KSZ Turn OFF or LOW Power mode\n- CS5381K-KSZ enters LOW power mode when RST pin LOW\n- CS5381K-KSZ cannot be connected to GLOBAL RST because it is used to enter LOW power mode meaning it does not function as device RST\n- PU R is placed in the CS5381K-KSZ RST\n\nOVFL pin is open drain\nWhen no overflow detected\nthe pin will be HIGH.\nWhen overflow detected\nthe pin will be LOW\n\nHPF High Pass Filter inside CS5381K-KSZ\n- To remove DC offset\n- To be run initially then disabled\n- Value is frozen and used thereafter "
 		(exclude_from_sim no)
 		(at 25.908 122.682 0)
 		(size 100.33 69.85)
+		(margins 0.75 0.75 0.75 0.75)
 		(stroke
 			(width 0)
 			(type dash)
@@ -28,6 +40,7 @@
 		(exclude_from_sim no)
 		(at 26.035 26.035 0)
 		(size 118.745 91.44)
+		(margins 0.75 0.75 0.75 0.75)
 		(stroke
 			(width 0)
 			(type dash)
@@ -47,6 +60,7 @@
 		(exclude_from_sim no)
 		(at 153.035 26.035 0)
 		(size 100.33 91.44)
+		(margins 0.75 0.75 0.75 0.75)
 		(stroke
 			(width 0)
 			(type dash)
@@ -61,16 +75,5 @@
 			(justify left top)
 		)
 		(uuid "6405646c-50d0-46c5-af79-9e1cdb333327")
-	)
-	(text "Fullscale Input Level = (Ain+)-(Ain-) = 5.64 Vpp\nAin+ is between 3.91 and 1.09 V (Each leg swinging 2.82V)\nAin- is between 3.91 and 1.09 V\nBoth oscillate around 2.5V (Common mode level)\nThe DC bias (Common mode level) is sett using VQ or VCOM (one pin)\nVQ or VCOM nominal voltage is 2.5V\nFilt+ Nominal Voltage 5V (Positive voltage reference output)"
-		(exclude_from_sim no)
-		(at 160.274 133.096 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "3ec94d3d-0c52-43f8-8efc-34478134409c")
 	)
 )

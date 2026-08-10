@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "532b720a-d345-4e8b-bed0-e606731588e9")
 	(paper "USLetter")
 	(title_block
@@ -364,17 +364,23 @@
 	(sheet
 		(at 36.195 134.62)
 		(size 47.625 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "3af8d819-fd9a-4d2b-a58d-97603810a2bc")
 		(property "Sheetname" "Power_Management"
 			(at 36.195 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,6 +390,8 @@
 		)
 		(property "Sheetfile" "Power_Management.kicad_sch"
 			(at 36.195 175.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,43 +401,43 @@
 		)
 		(pin "VCOM_B_LEFT" bidirectional
 			(at 83.82 139.7 0)
+			(uuid "c43c5733-be71-4f2f-aedf-7ad7e1937342")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c43c5733-be71-4f2f-aedf-7ad7e1937342")
 		)
 		(pin "VQ_NE5532D" bidirectional
 			(at 83.82 144.78 0)
+			(uuid "4e68207d-aae7-473a-b8d3-64e673a4e35e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4e68207d-aae7-473a-b8d3-64e673a4e35e")
 		)
 		(pin "VCOM_B_RIGHT" bidirectional
 			(at 83.82 142.24 0)
+			(uuid "6380b2b7-f844-461d-a4f9-a60b8307a6a1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6380b2b7-f844-461d-a4f9-a60b8307a6a1")
 		)
 		(pin "*RST" bidirectional
 			(at 83.82 147.32 0)
+			(uuid "a11a2731-3bf2-4223-92c6-afa5751bc026")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a11a2731-3bf2-4223-92c6-afa5751bc026")
 		)
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
@@ -442,17 +450,23 @@
 	(sheet
 		(at 203.2 37.465)
 		(size 40.005 82.55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "3ec9f341-2420-4d66-8bf6-d208992f297e")
 		(property "Sheetname" "Interfaces"
 			(at 203.2 36.7534 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,6 +476,8 @@
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
 			(at 203.2 120.5996 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,113 +487,113 @@
 		)
 		(pin "M0" bidirectional
 			(at 203.2 59.69 180)
+			(uuid "73db36a3-9299-4db3-806b-854a5aadd2ab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "73db36a3-9299-4db3-806b-854a5aadd2ab")
 		)
 		(pin "M1" bidirectional
 			(at 203.2 62.23 180)
+			(uuid "febee5bc-d919-4751-979a-a32f508b7150")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "febee5bc-d919-4751-979a-a32f508b7150")
 		)
 		(pin "~{OVFL}" bidirectional
 			(at 203.2 57.15 180)
+			(uuid "498c8c85-74b0-4e0d-abcc-3681236ed50e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "498c8c85-74b0-4e0d-abcc-3681236ed50e")
 		)
 		(pin "~{HPF}" bidirectional
 			(at 203.2 64.77 180)
+			(uuid "123ee115-a331-4e26-9d15-8a85632a9854")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "123ee115-a331-4e26-9d15-8a85632a9854")
 		)
 		(pin "*RST" bidirectional
 			(at 203.2 114.3 180)
+			(uuid "1ac93ce7-10f0-4a7f-9540-cf586df6f096")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1ac93ce7-10f0-4a7f-9540-cf586df6f096")
 		)
 		(pin "I2S1_MCK" bidirectional
 			(at 203.2 49.53 180)
+			(uuid "e9120e25-e340-4382-b6f5-0716e1320e60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e9120e25-e340-4382-b6f5-0716e1320e60")
 		)
 		(pin "I2S1_WS" bidirectional
 			(at 203.2 46.99 180)
+			(uuid "d661f33f-0044-4a5b-b96e-6aeda0bfedcf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d661f33f-0044-4a5b-b96e-6aeda0bfedcf")
 		)
 		(pin "I2S1_CK" bidirectional
 			(at 203.2 44.45 180)
+			(uuid "7f7ad77f-8cfb-4812-a29a-99f6098f1acc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7f7ad77f-8cfb-4812-a29a-99f6098f1acc")
 		)
 		(pin "I2S1_SDI{slash}O" bidirectional
 			(at 203.2 41.91 180)
+			(uuid "d9187ca7-4210-43be-b61e-1b91440a1531")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d9187ca7-4210-43be-b61e-1b91440a1531")
 		)
 		(pin "~{DISABLE1}_ADA4940" bidirectional
 			(at 203.2 67.31 180)
+			(uuid "27ad42f1-b466-44f8-808f-1bc833778bc9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "27ad42f1-b466-44f8-808f-1bc833778bc9")
 		)
 		(pin "~{DISABLE2}_ADA4940" bidirectional
 			(at 203.2 69.85 180)
+			(uuid "d9b67115-7487-43c3-86e8-7a16f3eb7b0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d9b67115-7487-43c3-86e8-7a16f3eb7b0b")
 		)
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
@@ -590,17 +606,23 @@
 	(sheet
 		(at 203.2 134.62)
 		(size 40.005 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 194 194 1.0000)
+			(color 0 194 194 1)
 		)
 		(uuid "4e607d89-909a-416d-9173-bb21d2748683")
 		(property "Sheetname" "Notes"
 			(at 203.2 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -610,6 +632,8 @@
 		)
 		(property "Sheetfile" "Notes.kicad_sch"
 			(at 203.2 147.2696 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,17 +652,23 @@
 	(sheet
 		(at 118.11 37.465)
 		(size 50.8 83.185)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "6fb95d43-0e18-4ad3-a6e5-b241b27d2adb")
 		(property "Sheetname" "ADC_CS5381K-KSZ"
 			(at 118.11 36.7534 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,6 +678,8 @@
 		)
 		(property "Sheetfile" "ADC_CS5381K-KSZ.kicad_sch"
 			(at 118.11 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,133 +689,133 @@
 		)
 		(pin "VQ_NE5532D" bidirectional
 			(at 118.11 72.39 180)
+			(uuid "cc70ad49-39e4-4757-8bd6-a9c43b3325f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cc70ad49-39e4-4757-8bd6-a9c43b3325f9")
 		)
 		(pin "AINR+" bidirectional
 			(at 118.11 41.91 180)
+			(uuid "be07afec-0602-4826-bf1c-8538f1fa16fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "be07afec-0602-4826-bf1c-8538f1fa16fe")
 		)
 		(pin "AINR-" bidirectional
 			(at 118.11 44.45 180)
+			(uuid "6b588ac1-e475-4db7-8edc-fcaa0faa0029")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6b588ac1-e475-4db7-8edc-fcaa0faa0029")
 		)
 		(pin "~{OVFL}" bidirectional
 			(at 168.91 57.15 0)
+			(uuid "bfa45805-7791-4fe8-9351-ab2e95f60bce")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bfa45805-7791-4fe8-9351-ab2e95f60bce")
 		)
 		(pin "AINL-" bidirectional
 			(at 118.11 50.8 180)
+			(uuid "855dfbff-b2c7-49fe-98ed-b130b5bb5352")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "855dfbff-b2c7-49fe-98ed-b130b5bb5352")
 		)
 		(pin "AINL+" bidirectional
 			(at 118.11 48.26 180)
+			(uuid "21fb4619-b3e6-4c09-b3f7-35d7c69974a9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "21fb4619-b3e6-4c09-b3f7-35d7c69974a9")
 		)
 		(pin "~{RST}_CS5381" bidirectional
 			(at 168.91 114.3 0)
+			(uuid "b1c0f0fa-312c-46d2-a3c1-9b1f7ec2c4ce")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b1c0f0fa-312c-46d2-a3c1-9b1f7ec2c4ce")
 		)
 		(pin "M0" bidirectional
 			(at 168.91 59.69 0)
+			(uuid "ecebd43f-8f32-4a7b-89df-47a0bbf900c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ecebd43f-8f32-4a7b-89df-47a0bbf900c6")
 		)
 		(pin "M1" bidirectional
 			(at 168.91 62.23 0)
+			(uuid "863503ff-e875-4e91-add0-802f3e178928")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "863503ff-e875-4e91-add0-802f3e178928")
 		)
 		(pin "~{HPF}" bidirectional
 			(at 168.91 64.77 0)
+			(uuid "489c9684-0087-4651-aa17-2750b714d400")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "489c9684-0087-4651-aa17-2750b714d400")
 		)
 		(pin "I2S_SDOUT" bidirectional
 			(at 168.91 41.91 0)
+			(uuid "042847f4-8155-4c52-b79c-74cc6722b46e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "042847f4-8155-4c52-b79c-74cc6722b46e")
 		)
 		(pin "I2S_SCLK" bidirectional
 			(at 168.91 44.45 0)
+			(uuid "71f3f6b4-6ff9-493b-a1df-36416e737163")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "71f3f6b4-6ff9-493b-a1df-36416e737163")
 		)
 		(pin "I2S_LRCK" bidirectional
 			(at 168.91 46.99 0)
+			(uuid "1ca75494-532e-4b4d-aa5a-42444ee9b65c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1ca75494-532e-4b4d-aa5a-42444ee9b65c")
 		)
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
@@ -796,17 +828,23 @@
 	(sheet
 		(at 36.195 37.465)
 		(size 47.625 83.185)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "e34874d5-b551-4e69-8606-4abb22c39edc")
 		(property "Sheetname" "ADC_Driver_ADA4940-2ACPZ-R7"
 			(at 36.195 36.7534 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,6 +854,8 @@
 		)
 		(property "Sheetfile" "ADC_Driver_ADA4940-2ACPZ-R7.kicad_sch"
 			(at 36.195 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,83 +865,83 @@
 		)
 		(pin "~{DISABLE1}_ADA4940" bidirectional
 			(at 83.82 63.5 0)
+			(uuid "9a640095-749f-4aa7-b31b-645d1390221e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9a640095-749f-4aa7-b31b-645d1390221e")
 		)
 		(pin "~{DISABLE2}_ADA4940" bidirectional
 			(at 83.82 66.04 0)
+			(uuid "01efc893-c171-4815-94f5-064cd423c685")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "01efc893-c171-4815-94f5-064cd423c685")
 		)
 		(pin "AINR+" bidirectional
 			(at 83.82 41.91 0)
+			(uuid "5e612b49-465e-49a1-8153-97a3735fe199")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5e612b49-465e-49a1-8153-97a3735fe199")
 		)
 		(pin "AINR-" bidirectional
 			(at 83.82 44.45 0)
+			(uuid "893d11e9-e0fd-4555-9e0f-dd66965ac3cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "893d11e9-e0fd-4555-9e0f-dd66965ac3cd")
 		)
 		(pin "VCOM_B_LEFT" bidirectional
 			(at 83.82 72.39 0)
+			(uuid "c7e9f149-7c39-4486-8bc7-cdaf6f2c8997")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c7e9f149-7c39-4486-8bc7-cdaf6f2c8997")
 		)
 		(pin "AINL-" bidirectional
 			(at 83.82 50.8 0)
+			(uuid "2053f058-eb22-4986-8252-ecd089016a5e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2053f058-eb22-4986-8252-ecd089016a5e")
 		)
 		(pin "AINL+" bidirectional
 			(at 83.82 48.26 0)
+			(uuid "9248c31f-b256-4894-8097-23ddaedb1716")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9248c31f-b256-4894-8097-23ddaedb1716")
 		)
 		(pin "VCOM_B_RIGHT" bidirectional
 			(at 83.82 74.93 0)
+			(uuid "462d1c7d-e3eb-4d8c-b202-0f7198ee1254")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "462d1c7d-e3eb-4d8c-b202-0f7198ee1254")
 		)
 		(instances
 			(project "ADC_CS5381KKSZ_Board"
@@ -916,4 +956,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
