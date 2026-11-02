@@ -2301,6 +2301,16 @@
 		)
 		(uuid "30ae3cc1-5526-4c4b-b47c-f845bfc5daee")
 	)
+	(text "Operates as master - is generating own clock"
+		(exclude_from_sim no)
+		(at 106.426 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43f1a2f1-db58-4815-b4ea-81e74f1f2fb5")
+	)
 	(text "MCLK\nLOW Div by 1\nHIGH Div by 2"
 		(exclude_from_sim no)
 		(at 55.372 129.54 0)
